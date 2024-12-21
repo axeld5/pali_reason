@@ -4,10 +4,23 @@ import json
 from PIL import Image
 from huggingface_hub import login
 from datasets import Dataset
-from transformers import PaliGemmaProcessor, PaliGemmaForConditionalGeneration, TrainingArguments, Trainer
+from transformers import PaliGemmaProcessor, PaliGemmaForConditionalGeneration, TrainingArguments, Trainer, BitsAndBytesConfig
+from peft import get_peft_model, LoraConfig
+
 
 login(token=os.environ.get("HUGGINGFACE_TOKEN"))
 model_id = "google/paligemma2-3b-pt-448"
+bnb_config = BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_compute_dtype=torch.bfloat16)
+
+lora_config = LoraConfig(
+    r=8,
+    target_modules=["q_proj", "o_proj", "k_proj", "v_proj", "gate_proj", "up_proj", "down_proj"],
+    task_type="CAUSAL_LM",
+)
+
+model = PaliGemmaForConditionalGeneration.from_pretrained(model_id, device_map="auto")#, quantization_config=bnb_config)
+model = get_peft_model(model, lora_config)
+model.print_trainable_parameters()
 processor = PaliGemmaProcessor.from_pretrained(model_id)
 device = "cuda"
 image_token = processor.tokenizer.convert_tokens_to_ids("<image>")
@@ -49,7 +62,7 @@ args = TrainingArguments(
             dataloader_pin_memory=False
         )
 
-train_ds = Dataset.from_dict(json.load(open("truncated_training_dict.json")))
+train_ds = Dataset.from_dict(json.load(open("training_dict.json")))
 
 trainer = Trainer(
         model=model,
