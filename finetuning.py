@@ -18,7 +18,7 @@ lora_config = LoraConfig(
     task_type="CAUSAL_LM",
 )
 
-model = PaliGemmaForConditionalGeneration.from_pretrained(model_id, device_map="auto")#, quantization_config=bnb_config)
+model = PaliGemmaForConditionalGeneration.from_pretrained(model_id, device_map="auto", use_flash_attention_2=True)#, quantization_config=bnb_config)
 model = get_peft_model(model, lora_config)
 model.print_trainable_parameters()
 processor = PaliGemmaProcessor.from_pretrained(model_id)
@@ -31,6 +31,7 @@ def collate_fn(examples):
   tokens = processor(text=texts, images=images, suffix=labels,
                     return_tensors="pt", padding="longest")
   tokens = tokens.to(torch.bfloat16).to(device)
+  torch.cuda.empty_cache()
   return tokens
 
 model = PaliGemmaForConditionalGeneration.from_pretrained(model_id, torch_dtype=torch.bfloat16).to(device)
