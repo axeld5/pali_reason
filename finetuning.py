@@ -18,7 +18,7 @@ lora_config = LoraConfig(
     task_type="CAUSAL_LM",
 )
 
-model = PaliGemmaForConditionalGeneration.from_pretrained(model_id, device_map="auto")#, quantization_config=bnb_config)
+model = PaliGemmaForConditionalGeneration.from_pretrained(model_id, device_map="auto", quantization_config=bnb_config)
 model = get_peft_model(model, lora_config)
 model.print_trainable_parameters()
 processor = PaliGemmaProcessor.from_pretrained(model_id)
