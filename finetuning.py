@@ -31,7 +31,7 @@ for param in model.multi_modal_projector.parameters():
 args = TrainingArguments(
             num_train_epochs=10,
             remove_unused_columns=False,
-            per_device_train_batch_size=2,
+            per_device_train_batch_size=1,
             gradient_accumulation_steps=4,
             warmup_steps=2,
             learning_rate=2e-5,
@@ -49,7 +49,7 @@ args = TrainingArguments(
             dataloader_pin_memory=False
         )
 
-train_ds = Dataset.from_dict(json.load(open("training_dict.json")))
+train_ds = Dataset.from_dict(json.load(open("truncated_training_dict.json")))
 
 trainer = Trainer(
         model=model,

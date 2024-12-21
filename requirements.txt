@@ -1,0 +1,7 @@
+torch
+huggingface
+huggingface_hub
+transformers
+datasets
+tensorboardX
+accelerate
