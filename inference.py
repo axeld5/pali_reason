@@ -1,6 +1,5 @@
 import os
 import pandas as pd
-from PIL import Image
 from huggingface_hub import login
 from transformers import PaliGemmaProcessor, PaliGemmaForConditionalGeneration
 from datasets import load_dataset
@@ -27,4 +26,4 @@ for i in range(351, len(dataset["testmini"])):
     result_list.append(result)
     true_answers.append(dataset["testmini"][i]["answer"])
 df = pd.DataFrame({"prompt": prompts, "result": result_list, "true_answer": true_answers})
-df.to_csv("results.csv", index=False)
+df.to_csv("outputs/results.csv", index=False)

@@ -27,7 +27,7 @@ image_token = processor.tokenizer.convert_tokens_to_ids("<image>")
 def collate_fn(examples):
   texts = ["<image>" + example["prefixes"] + "<bos>" for example in examples]
   labels= [example['suffixes'] + "<eos>" for example in examples]
-  images = [Image.open(f"{example['images']}").convert("RGB") for example in examples]
+  images = [Image.open(f"training_data/{example['images']}").convert("RGB") for example in examples]
   tokens = processor(text=texts, images=images, suffix=labels,
                     return_tensors="pt", padding="longest")
   tokens = tokens.to(torch.bfloat16).to(device)
@@ -63,7 +63,7 @@ args = TrainingArguments(
             dataloader_pin_memory=False
         )
 
-train_ds = Dataset.from_dict(json.load(open("truncated_training_dict.json")))
+train_ds = Dataset.from_dict(json.load(open("training_data/truncated_training_dict.json")))
 
 trainer = Trainer(
         model=model,

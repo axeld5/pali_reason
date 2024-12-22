@@ -27,4 +27,4 @@ for i in range(351, len(dataset["testmini"])):
     result_list.append(result)
     true_answers.append(dataset["testmini"][i]["answer"])
 df = pd.DataFrame({"prompt": prompts, "result": result_list, "true_answer": true_answers})
-df.to_csv("results_finetuned.csv", index=False)
+df.to_csv("outputs/results_finetuned.csv", index=False)
