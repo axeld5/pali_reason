@@ -5,3 +5,4 @@ transformers
 datasets
 tensorboardX
 accelerate
+google-genai
