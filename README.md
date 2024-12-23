@@ -9,11 +9,13 @@ This project utilizes **Gemini 2.0 Flash Thiking** to generate distilled thought
 ```
 .
 ├── training_data/                      # Contains training datasets.
+├── outputs/                            # Contains results from the inference files.
 ├── generating_training_examples.ipynb  # Notebook for generating initial thoughts.
 ├── formatting_training_dataset.ipynb   # Notebook for getting the right data for training.
 ├── finetuning.py                       # Script for fine-tuning the model (requires 1 H100 GPU).
 ├── inference.py                        # Script for inference with the base model.
 ├── inference_finetuned.py              # Script for inference with the fine-tuned model.
+├── visualising_examples.ipynb          # Script to visualise the outputs of the different models.
 ├── answer_eval.ipynb                   # Notebook for evaluating model-generated answers.
 ├── requirements.txt                    # Required Python dependencies.
 ├── .env                                # API keys for Anthropic and Google.
