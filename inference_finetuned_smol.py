@@ -6,6 +6,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 model_id = "HuggingFaceTB/SmolVLM-Instruct"
+processor = AutoProcessor.from_pretrained(model_id)
+model_id = "axel-darmouni/smolvlm-instruct-thinking"
 model = Idefics3ForConditionalGeneration.from_pretrained(
     model_id,
     device_map="auto",
@@ -13,7 +15,6 @@ model = Idefics3ForConditionalGeneration.from_pretrained(
     _attn_implementation="flash_attention_2",
 )
 
-processor = AutoProcessor.from_pretrained(model_id)
 
 system_message = """You are a Vision Language Model specialized in handling mathematical questions with reasoning
 Your task is, given a question that requires thinking, to give the right answer to it."""
@@ -98,4 +99,4 @@ for i in range(351, len(dataset["testmini"])):
     result_list.append(output)
     true_answers.append(dataset["testmini"][i]["answer"])
 df = pd.DataFrame({"prompt": prompts, "result": result_list, "true_answer": true_answers})
-df.to_csv("outputs/results_smol.csv", index=False)
+df.to_csv("outputs/results_finetuned_smol.csv", index=False)
