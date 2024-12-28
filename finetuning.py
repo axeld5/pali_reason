@@ -1,8 +1,6 @@
-import os
 import torch
 import json
 from PIL import Image
-from huggingface_hub import login
 from datasets import Dataset
 from transformers import PaliGemmaProcessor, PaliGemmaForConditionalGeneration, TrainingArguments, Trainer, BitsAndBytesConfig
 from peft import get_peft_model, LoraConfig
@@ -19,7 +17,7 @@ lora_config = LoraConfig(
 )
 
 device = "cuda"
-model = PaliGemmaForConditionalGeneration.from_pretrained(model_id, device_map="auto", torch_dtype=torch.bfloat16).to(device) #quantization_config=bnb_config)
+model = PaliGemmaForConditionalGeneration.from_pretrained(model_id, device_map="auto", torch_dtype=torch.bfloat16, attn_implementation="flash_attention_2").to(device) #quantization_config=bnb_config)
 model = get_peft_model(model, lora_config)
 model.print_trainable_parameters()
 processor = PaliGemmaProcessor.from_pretrained(model_id)
@@ -32,7 +30,6 @@ def collate_fn(examples):
     for example in examples:
         image = Image.open(f"{example['images']}").convert("RGB")
         processed_images.append(image)
-    
     tokens = processor(text=texts, images=processed_images, suffix=labels,
                       return_tensors="pt", padding="longest")
     for img in processed_images:
@@ -49,25 +46,25 @@ for param in model.multi_modal_projector.parameters():
     param.requires_grad = False
 
 args = TrainingArguments(
-            num_train_epochs=10,
-            remove_unused_columns=False,
-            per_device_train_batch_size=1,
-            gradient_accumulation_steps=4,
-            warmup_steps=2,
-            learning_rate=2e-5,
-            weight_decay=1e-6,
-            adam_beta2=0.999,
-            logging_steps=100,
-            optim="adamw_hf",
-            save_strategy="steps",
-            save_steps=1000,
-            push_to_hub=True,
-            save_total_limit=1,
-            output_dir="paligemma2_thinking_v2",
-            bf16=True,
-            report_to=["tensorboard"],
-            dataloader_pin_memory=False
-        )
+    num_train_epochs=10,
+    remove_unused_columns=False,
+    per_device_train_batch_size=1,
+    gradient_accumulation_steps=4,
+    warmup_steps=2,
+    learning_rate=2e-5,
+    weight_decay=1e-6,
+    adam_beta2=0.999,
+    logging_steps=100,
+    optim="adamw_hf",
+    save_strategy="steps",
+    save_steps=1000,
+    push_to_hub=True,
+    save_total_limit=1,
+    output_dir="paligemma2_thinking_v2",
+    bf16=True,
+    report_to=["tensorboard"],
+    dataloader_pin_memory=False
+)
 
 class CustomTrainer(Trainer):
     def training_step(self, *args, **kwargs):
@@ -78,10 +75,10 @@ class CustomTrainer(Trainer):
 train_ds = Dataset.from_dict(json.load(open("training_data/training_dict.json")))
 
 trainer = Trainer(
-        model=model,
-        train_dataset=train_ds,
-        data_collator=collate_fn,
-        args=args
+    model=model,
+    train_dataset=train_ds,
+    data_collator=collate_fn,
+    args=args
 )
 
 trainer.train()
