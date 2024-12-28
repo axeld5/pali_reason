@@ -46,7 +46,7 @@ for param in model.multi_modal_projector.parameters():
     param.requires_grad = False
 
 args = TrainingArguments(
-    num_train_epochs=3,
+    num_train_epochs=15,
     remove_unused_columns=False,
     per_device_train_batch_size=1,
     gradient_accumulation_steps=4,
