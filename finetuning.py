@@ -3,19 +3,11 @@ import json
 from PIL import Image
 from datasets import Dataset
 from transformers import PaliGemmaProcessor, PaliGemmaForConditionalGeneration, TrainingArguments, Trainer, BitsAndBytesConfig
-from transformers import Idefics3ForConditionalGeneration, AutoProcessor
-import torch
 from peft import get_peft_model, LoraConfig
 from dotenv import load_dotenv
 
 load_dotenv()
-
-device = "cuda"
-model = Idefics3ForConditionalGeneration.from_pretrained(
-    "HuggingFaceTB/SmolVLM-Instruct",
-    torch_dtype=torch.bfloat16,
-    _attn_implementation="flash_attention_2" if device == "cuda" else "eager",
-).to("cuda")
+model_id = "google/paligemma2-3b-pt-448"
 bnb_config = BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_compute_dtype=torch.bfloat16)
 
 lora_config = LoraConfig(
@@ -24,12 +16,11 @@ lora_config = LoraConfig(
     task_type="CAUSAL_LM",
 )
 
-
-#model = PaliGemmaForConditionalGeneration.from_pretrained(model_id, device_map="auto", torch_dtype=torch.bfloat16, attn_implementation="eager").to(device) #quantization_config=bnb_config)
+device = "cuda"
+model = PaliGemmaForConditionalGeneration.from_pretrained(model_id, device_map="auto", torch_dtype=torch.bfloat16, attn_implementation="eager").to(device) #quantization_config=bnb_config)
 model = get_peft_model(model, lora_config)
 model.print_trainable_parameters()
-#processor = PaliGemmaProcessor.from_pretrained(model_id)
-processor = AutoProcessor.from_pretrained("HuggingFaceTB/SmolVLM-Instruct")
+processor = PaliGemmaProcessor.from_pretrained(model_id)
 image_token = processor.tokenizer.convert_tokens_to_ids("<image>")
 
 def collate_fn(examples):
@@ -48,13 +39,11 @@ def collate_fn(examples):
     torch.cuda.empty_cache()
     return tokens
 
-"""print(model)
-
 for param in model.vision_tower.parameters():
     param.requires_grad = False
 
 for param in model.multi_modal_projector.parameters():
-    param.requires_grad = False"""
+    param.requires_grad = False
 
 args = TrainingArguments(
     num_train_epochs=10,
@@ -71,7 +60,7 @@ args = TrainingArguments(
     save_steps=1000,
     push_to_hub=True,
     save_total_limit=1,
-    output_dir="smolvlm_thinking_v2",
+    output_dir="paligemma2_thinking_v2",
     bf16=True,
     report_to=["tensorboard"],
     dataloader_pin_memory=False
