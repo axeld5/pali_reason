@@ -22,7 +22,7 @@ for i in range(351, len(dataset["testmini"])):
     raw_image = dataset["testmini"][i]["decoded_image"]
     paligemma_prompt = "<image>" + prompt + "<bos>"
     inputs = processor(paligemma_prompt, raw_image.convert("RGB"), return_tensors="pt").to(device)
-    output = model.generate(**inputs, max_new_tokens=2000)
+    output = model.generate(**inputs, max_new_tokens=500)
     result = processor.decode(output[0], skip_special_tokens=True)[len(prompt):]
     if i-351 <= 20:
         print(result)
