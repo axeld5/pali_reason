@@ -10,9 +10,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+device = "cuda"
 model = AutoModelForVision2Seq.from_pretrained(
     "HuggingFaceTB/SmolVLM-Instruct",
-    torch_dtype=torch.bfloat16
+    torch_dtype=torch.bfloat16,
+    _attn_implementation="flash_attention_2" if device == "cuda" else "eager",
 ).to("cuda")
 bnb_config = BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_compute_dtype=torch.bfloat16)
 
@@ -22,7 +24,7 @@ lora_config = LoraConfig(
     task_type="CAUSAL_LM",
 )
 
-device = "cuda"
+
 #model = PaliGemmaForConditionalGeneration.from_pretrained(model_id, device_map="auto", torch_dtype=torch.bfloat16, attn_implementation="eager").to(device) #quantization_config=bnb_config)
 model = get_peft_model(model, lora_config)
 model.print_trainable_parameters()
@@ -45,6 +47,8 @@ def collate_fn(examples):
     tokens = tokens.to(torch.bfloat16).to(device)
     torch.cuda.empty_cache()
     return tokens
+
+print(model)
 
 for param in model.vision_tower.parameters():
     param.requires_grad = False
