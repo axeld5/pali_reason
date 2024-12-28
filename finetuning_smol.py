@@ -79,12 +79,12 @@ peft_model.print_trainable_parameters()
 # Configure training arguments using SFTConfig
 training_args = SFTConfig(
     output_dir="smolvlm-instruct-thinking",
-    num_train_epochs=10,
+    num_train_epochs=8,
     per_device_train_batch_size=4,
     gradient_accumulation_steps=4,
-    warmup_steps=50,
-    learning_rate=1e-4,
-    weight_decay=0.01,
+    warmup_steps=2,
+    learning_rate=2e-5,
+    weight_decay=1e-6,
     logging_steps=25,
     save_strategy="steps",
     save_steps=25,
