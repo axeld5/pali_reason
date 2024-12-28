@@ -50,10 +50,10 @@ def collate_fn(examples):
 
 print(model)
 
-for param in model.vision_tower.parameters():
+for param in model.vision_model.parameters():
     param.requires_grad = False
 
-for param in model.multi_modal_projector.parameters():
+for param in model.connector.parameters():
     param.requires_grad = False
 
 args = TrainingArguments(
