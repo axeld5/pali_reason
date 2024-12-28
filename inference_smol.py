@@ -96,7 +96,8 @@ for i in range(351, len(dataset["testmini"])):
     raw_image = dataset["testmini"][i]["decoded_image"]
     inputs = format_data(sample = {"image": raw_image, "input": prompt})
     output = generate_text_from_sample(model, processor, inputs)
-    print(output)
+    if i <= 20:
+        print(output)
     prompts.append(prompt)
     result_list.append(output)
     true_answers.append(dataset["testmini"][i]["answer"])
