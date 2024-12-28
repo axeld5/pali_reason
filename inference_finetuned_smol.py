@@ -45,7 +45,7 @@ def format_data(sample):
         },
     ]
 
-def generate_text_from_sample(model, processor, sample, max_new_tokens=1024, device="cuda"):
+def generate_text_from_sample(model, processor, sample, max_new_tokens=512, device="cuda"):
     # Prepare the text input by applying the chat template
     text_input = processor.apply_chat_template(
         sample[1:2],  # Use the sample without the system message
