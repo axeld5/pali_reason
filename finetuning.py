@@ -48,13 +48,13 @@ def collate_fn(examples):
     torch.cuda.empty_cache()
     return tokens
 
-print(model)
+"""print(model)
 
-for param in model.vision_model.parameters():
+for param in model.vision_tower.parameters():
     param.requires_grad = False
 
-for param in model.connector.parameters():
-    param.requires_grad = False
+for param in model.multi_modal_projector.parameters():
+    param.requires_grad = False"""
 
 args = TrainingArguments(
     num_train_epochs=10,
