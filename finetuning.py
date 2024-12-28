@@ -18,8 +18,8 @@ lora_config = LoraConfig(
 
 device = "cuda"
 model = PaliGemmaForConditionalGeneration.from_pretrained(model_id, device_map="auto", torch_dtype=torch.bfloat16, attn_implementation="eager").to(device) #quantization_config=bnb_config)
-model = get_peft_model(model, lora_config)
-model.print_trainable_parameters()
+#model = get_peft_model(model, lora_config)
+#model.print_trainable_parameters()
 processor = PaliGemmaProcessor.from_pretrained(model_id)
 image_token = processor.tokenizer.convert_tokens_to_ids("<image>")
 
@@ -46,7 +46,7 @@ for param in model.multi_modal_projector.parameters():
     param.requires_grad = False
 
 args = TrainingArguments(
-    num_train_epochs=10,
+    num_train_epochs=5,
     remove_unused_columns=False,
     per_device_train_batch_size=1,
     gradient_accumulation_steps=4,
