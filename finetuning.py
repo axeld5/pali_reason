@@ -20,7 +20,7 @@ lora_config = LoraConfig(
 
 model = PaliGemmaForConditionalGeneration.from_pretrained(model_id, device_map="auto") #quantization_config=bnb_config)
 #model = get_peft_model(model, lora_config)
-model.print_trainable_parameters()
+#model.print_trainable_parameters()
 processor = PaliGemmaProcessor.from_pretrained(model_id)
 device = "cuda"
 image_token = processor.tokenizer.convert_tokens_to_ids("<image>")
