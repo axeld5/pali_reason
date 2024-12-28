@@ -6,9 +6,9 @@ from huggingface_hub import login
 from datasets import Dataset
 from transformers import PaliGemmaProcessor, PaliGemmaForConditionalGeneration, TrainingArguments, Trainer, BitsAndBytesConfig
 from peft import get_peft_model, LoraConfig
+from dotenv import load_dotenv
 
-
-login(token=os.environ.get("HUGGINGFACE_TOKEN"))
+load_dotenv()
 model_id = "google/paligemma2-3b-pt-448"
 bnb_config = BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_compute_dtype=torch.bfloat16)
 
