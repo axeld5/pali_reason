@@ -7,9 +7,9 @@ from dotenv import load_dotenv
 load_dotenv()
 model_id = "HuggingFaceTB/SmolVLM-Instruct"
 processor = AutoProcessor.from_pretrained(model_id)
-model_id = "axel-darmouni/smolvlm-instruct-thinking"
+thinking_model_id = "axel-darmouni/smolvlm-instruct-thinking"
 model = Idefics3ForConditionalGeneration.from_pretrained(
-    model_id,
+    thinking_model_id,
     device_map="auto",
     torch_dtype=torch.bfloat16,
     _attn_implementation="flash_attention_2",
