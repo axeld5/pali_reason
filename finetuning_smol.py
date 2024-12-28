@@ -70,10 +70,10 @@ peft_config = LoraConfig(
 )
 
 # Apply PEFT model adaptation
-#peft_model = get_peft_model(model, peft_config)
+peft_model = get_peft_model(model, peft_config)
 
 # Print trainable parameters
-#peft_model.print_trainable_parameters()
+peft_model.print_trainable_parameters()
 
 
 # Configure training arguments using SFTConfig
@@ -126,7 +126,7 @@ trainer = SFTTrainer(
     args=training_args,
     train_dataset=train_dataset,
     data_collator=collate_fn,
-    #peft_config=peft_config,
+    peft_config=peft_config,
     tokenizer=processor.tokenizer,
 )
 
