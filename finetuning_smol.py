@@ -34,11 +34,11 @@ def format_data(sample):
             "content": [
                 {
                     "type": "image",
-                    "image": sample["image"],
+                    "image": sample["images"],
                 },
                 {
                     "type": "text",
-                    "text": sample['query'],
+                    "text": sample['prefixes'],
                 }
             ],
         },
@@ -47,11 +47,11 @@ def format_data(sample):
             "content": [
                 {
                     "type": "text",
-                    "text": sample["label"][0]
+                    "text": sample["suffixes"]
                 }
             ],
         },
     ]
 
 train_ds = Dataset.from_dict(json.load(open("training_data/training_dict.json")))
-print(train_ds)
+print([format_data(sample) for sample in train_ds])
