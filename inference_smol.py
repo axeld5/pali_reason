@@ -48,9 +48,6 @@ def format_data(sample):
         },
     ]
 
-train_ds = Dataset.from_dict(json.load(open("training_data/training_dict.json")))
-train_dataset = [format_data(sample) for sample in train_ds]
-
 def generate_text_from_sample(model, processor, sample, max_new_tokens=1024, device="cuda"):
     # Prepare the text input by applying the chat template
     text_input = processor.apply_chat_template(
