@@ -18,11 +18,11 @@ lora_config = LoraConfig(
     task_type="CAUSAL_LM",
 )
 
-model = PaliGemmaForConditionalGeneration.from_pretrained(model_id, device_map="auto") #quantization_config=bnb_config)
+device = "cuda"
+model = PaliGemmaForConditionalGeneration.from_pretrained(model_id, device_map="auto", torch_dtype=torch.bfloat16).to(device) #quantization_config=bnb_config)
 model = get_peft_model(model, lora_config)
 model.print_trainable_parameters()
 processor = PaliGemmaProcessor.from_pretrained(model_id)
-device = "cuda"
 image_token = processor.tokenizer.convert_tokens_to_ids("<image>")
 
 def collate_fn(examples):
