@@ -61,7 +61,7 @@ train_dataset = [format_data(sample) for sample in train_ds]
 
 # Configure LoRA
 peft_config = LoraConfig(
-    r=8,
+    r=32,
     lora_alpha=8,
     lora_dropout=0.1,
     target_modules=['down_proj','o_proj','k_proj','q_proj','gate_proj','up_proj','v_proj'],
@@ -79,7 +79,7 @@ peft_model.print_trainable_parameters()
 # Configure training arguments using SFTConfig
 training_args = SFTConfig(
     output_dir="smolvlm-instruct-thinking",
-    num_train_epochs=8,
+    num_train_epochs=10,
     per_device_train_batch_size=4,
     gradient_accumulation_steps=4,
     warmup_steps=2,
