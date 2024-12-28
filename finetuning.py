@@ -30,7 +30,7 @@ def collate_fn(examples):
     labels = [example['suffixes'] + "<eos>" for example in examples]
     processed_images = []
     for example in examples:
-        image = Image.open(f"training_data/{example['images']}").convert("RGB")
+        image = Image.open(f"{example['images']}").convert("RGB")
         processed_images.append(image)
     
     tokens = processor(text=texts, images=processed_images, suffix=labels,
