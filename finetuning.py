@@ -3,11 +3,17 @@ import json
 from PIL import Image
 from datasets import Dataset
 from transformers import PaliGemmaProcessor, PaliGemmaForConditionalGeneration, TrainingArguments, Trainer, BitsAndBytesConfig
+from transformers import AutoModelForVision2Seq, AutoProcessor
+import torch
 from peft import get_peft_model, LoraConfig
 from dotenv import load_dotenv
 
 load_dotenv()
-model_id = "google/paligemma2-3b-pt-448"
+
+model = AutoModelForVision2Seq.from_pretrained(
+    "HuggingFaceTB/SmolVLM-Instruct",
+    torch_dtype=torch.bfloat16
+).to("cuda")
 bnb_config = BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_compute_dtype=torch.bfloat16)
 
 lora_config = LoraConfig(
@@ -17,10 +23,11 @@ lora_config = LoraConfig(
 )
 
 device = "cuda"
-model = PaliGemmaForConditionalGeneration.from_pretrained(model_id, device_map="auto", torch_dtype=torch.bfloat16, attn_implementation="eager").to(device) #quantization_config=bnb_config)
+#model = PaliGemmaForConditionalGeneration.from_pretrained(model_id, device_map="auto", torch_dtype=torch.bfloat16, attn_implementation="eager").to(device) #quantization_config=bnb_config)
 model = get_peft_model(model, lora_config)
 model.print_trainable_parameters()
-processor = PaliGemmaProcessor.from_pretrained(model_id)
+#processor = PaliGemmaProcessor.from_pretrained(model_id)
+processor = AutoProcessor.from_pretrained("HuggingFaceTB/SmolVLM-Instruct")
 image_token = processor.tokenizer.convert_tokens_to_ids("<image>")
 
 def collate_fn(examples):
@@ -65,12 +72,6 @@ args = TrainingArguments(
     report_to=["tensorboard"],
     dataloader_pin_memory=False
 )
-
-class CustomTrainer(Trainer):
-    def training_step(self, *args, **kwargs):
-        loss = super().training_step(*args, **kwargs)
-        torch.cuda.empty_cache()
-        return loss
 
 train_ds = Dataset.from_dict(json.load(open("training_data/training_dict.json")))
 
