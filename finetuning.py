@@ -75,9 +75,9 @@ class CustomTrainer(Trainer):
         torch.cuda.empty_cache()
         return loss
 
-train_ds = Dataset.from_dict(json.load(open("training_data/training_dict.json")))
+train_ds = Dataset.from_dict(json.load(open("training_data/truncated_training_dict.json")))
 
-trainer = CustomTrainer(
+trainer = Trainer(
         model=model,
         train_dataset=train_ds,
         data_collator=collate_fn,
