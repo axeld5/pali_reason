@@ -24,17 +24,23 @@ model.print_trainable_parameters()
 processor = PaliGemmaProcessor.from_pretrained(model_id)
 device = "cuda"
 image_token = processor.tokenizer.convert_tokens_to_ids("<image>")
-def collate_fn(examples):
-  texts = ["<image>" + example["prefixes"] + "<bos>" for example in examples]
-  labels= [example['suffixes'] + "<eos>" for example in examples]
-  images = [Image.open(f"training_data/{example['images']}").convert("RGB") for example in examples]
-  tokens = processor(text=texts, images=images, suffix=labels,
-                    return_tensors="pt", padding="longest")
-  tokens = tokens.to(torch.bfloat16).to(device)
-  torch.cuda.empty_cache()
-  return tokens
 
-model = PaliGemmaForConditionalGeneration.from_pretrained(model_id, torch_dtype=torch.bfloat16).to(device)
+def collate_fn(examples):
+    texts = ["<image>" + example["prefixes"] + "<bos>" for example in examples]
+    labels = [example['suffixes'] + "<eos>" for example in examples]
+    processed_images = []
+    for example in examples:
+        image = Image.open(f"training_data/{example['images']}").convert("RGB")
+        processed_images.append(image)
+    
+    tokens = processor(text=texts, images=processed_images, suffix=labels,
+                      return_tensors="pt", padding="longest")
+    for img in processed_images:
+        img.close()
+    processed_images = []
+    tokens = tokens.to(torch.bfloat16).to(device)
+    torch.cuda.empty_cache()
+    return tokens
 
 for param in model.vision_tower.parameters():
     param.requires_grad = False
@@ -57,20 +63,26 @@ args = TrainingArguments(
             save_steps=1000,
             push_to_hub=True,
             save_total_limit=1,
-            output_dir="paligemma2_thinking",
+            output_dir="paligemma2_thinking_v2",
             bf16=True,
             report_to=["tensorboard"],
             dataloader_pin_memory=False
         )
 
-train_ds = Dataset.from_dict(json.load(open("training_data/truncated_training_dict.json")))
+class CustomTrainer(Trainer):
+    def training_step(self, *args, **kwargs):
+        loss = super().training_step(*args, **kwargs)
+        torch.cuda.empty_cache()
+        return loss
 
-trainer = Trainer(
+train_ds = Dataset.from_dict(json.load(open("training_data/training_dict.json")))
+
+trainer = CustomTrainer(
         model=model,
         train_dataset=train_ds,
         data_collator=collate_fn,
         args=args
-        )
+)
 
 trainer.train()
 trainer.push_to_hub()
