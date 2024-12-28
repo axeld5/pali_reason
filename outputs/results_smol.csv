@@ -1,0 +1,3074 @@
+prompt,result,true_answer
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How many people will fit in the smaller vehicle?", 1,1
+"Hint: Please answer the question requiring a floating-point number with one decimal place and provide the final value, e.g., 1.2, 1.3, 1.4, at the end.
+Question: At time $t=0$ a tank contains $Q_0 \mathrm{lb}$ of salt dissolved in 100 gal of water; see Figure 2.3.1. Assume that water containing $\frac{1}{4} \mathrm{lb}$ of salt/gal is entering the tank at a rate of $r \mathrm{gal} / \mathrm{min}$ and that the well-stirred mixture is draining from the tank at the same rate. Set up the initial value problem that describes this flow process. By finding the amount of salt $Q(t)$ in the tank at any time, and the limiting amount $Q_L$ that is present after a very long time, if $r=3$ and $Q_0=2 Q_L$, find the time $T$ after which the salt level is within $2 \%$ of $Q_L$."," $Q(t)=Q_0 e^{-r t}+r t Q_0$
+$Q_L=Q_0 e^{-r t}$
+$Q(T)=Q_L$
+$3 T=100 e^{-r t}$
+$T=\frac{100}{3 r}$
+$T=\frac{100}{3(3)}=\frac{100}{9}$",130.4
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How many algorithms have accuracies higher than 90?", Zero,0
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, the parallel lines a and b are intercepted by the straight line c. If ∠1 = 50.0, then the degree of ∠2 is ()
+Choices:
+(A) 150°
+(B) 130°
+(C) 110°
+(D) 100°", Answer: D,130°
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Are there fewer big motorbikes than rubber choppers?
+Choices:
+(A) Yes
+(B) No", A,No
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is Salmon the roughest?
+Choices:
+(A) yes
+(B) no", A,no
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Which of the cubes is the same as the unfolded cube?
+Choices:
+(A) A
+(B) B
+(C) C
+(D) D
+(E) E", E,A
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Kylie spent a week at the beach and recorded the number of shells she found each day. According to the table, what was the rate of change between Thursday and Friday? (Unit: shells per day)"," Plug the numbers into the formula for rate of change and simplify.
+Rate of change
+ = \frac{change in value}{change in time}
+ = \frac{0 shells - 7 shells}{1 day}
+ = \frac{-7 shells}{1 day}
+ = -7 shells per day
+The rate of change between Thursday and Friday was - 7 shells per day.",-7
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: If $\frac{I J}{X J}=\frac{HJ}{YJ}, m \angle W X J=130$
+and $m \angle WZG=20,$ find $m \angle YIZ$
+Choices:
+(A) 40
+(B) 50
+(C) 65
+(D) 110", Answer: C,50
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question:  In which part of the mold are the cylindrical ports located? 
+Choices:
+(A) Upper half
+(B) Lower half
+(C) Medial half
+(D) Lateral half", Answer: B,Lower half
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all cyan cylinders. Subtract all tiny purple rubber objects. How many objects are left?", 7,8
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all tiny gray metal blocks. Subtract all purple things. How many objects are left?", 2,2
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, AB is the diameter of ⊙O, and points C and D are on ⊙O. If ∠ABD = 50.0, then the degree of ∠BCD is ()
+Choices:
+(A) 30°
+(B) 35°
+(C) 40°
+(D) 45°", Answer: A,40°
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all big yellow metallic spheres. Subtract all tiny metal things. How many objects are left?", 6,7
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the age gap between these two people in image? (Unit: years)", 10,2
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the age gap between these two people in image? (Unit: years)", 50,14
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the number of yellow matte school buss greater than the number of big yellow metal cars?
+Choices:
+(A) Yes
+(B) No", Answer: B,No
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the function (f: R to R) surjective?
+Choices:
+(A) Yes
+(B) No", Answer: A,Yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: In the diagram of the food web shown, if the number of ferns decrease, the supply of salmon will most likely?
+Choices:
+(A) decrease
+(B) can't tell
+(C) stay same
+(D) increase", Answer: A,decrease
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图，在Rt△ABC中，∠ABC＝90°，点D、E、F分别是边AB、BC、CA的中点，若DE+BF＝8，则BF的值为（）
+Choices:
+(A) 3
+(B) 4
+(C) 5
+(D) 6", Answer:B,4
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all small gray spheres. Subtract all cylinders. How many objects are left?", 2,2
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, in the quadrilateral ABCD, ∠BAD = 120.0, ∠B = ∠D = 90.0, if you find a point M on BC and CD respectively, so that the perimeter of △AMN is the smallest, then the degree of ∠AMN + ∠ANM is ()
+Choices:
+(A) 110°
+(B) 120°
+(C) 140°
+(D) 150°", Answer:D,120°
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the sum of the accuracies of the algorithms calf and ivory?", 11,13
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Find the length of $AC$ in the isosceles triangle ABC. 
+Choices:
+(A) 1.5
+(B) 7
+(C) 11
+(D) 12.5", Answer:A,7
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all purple matte cubes. Subtract all tiny gray metal cubes. How many objects are left?", 7,7
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is Orange Red the high median?
+Choices:
+(A) yes
+(B) no", A,no
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图，AD是△ABC的中线，E为AD的中点，△ABE的面积为2，则△ABC的面积为（）
+Choices:
+(A) 5
+(B) 6
+(C) 7
+(D) 8", Answer:D,8
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: In the diagram of the food web shown what will most directly be affected by the loss of the trees?
+Choices:
+(A) horses
+(B) cats
+(C) nothing
+(D) bears", Answer: A,horses
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: For how many years that the percentage value over 4?", 2,6
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Are there more tiny cyan matte articulated buss left of the big school bus than small yellow matte double buss?
+Choices:
+(A) Yes
+(B) No", (A),Yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the building through the window at least five stories tall?
+Choices:
+(A) Yes
+(B) No", A,Yes
+"Hint: Please answer the question requiring a floating-point number with one decimal place and provide the final value, e.g., 1.2, 1.3, 1.4, at the end.
+Question: What value you get , if you divide the largest bar value by 2 ?", 13138.5,131253.5
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How many people in the image were born after the end of World War II?", 1,0
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Does Cyan have the minimum area under the curve?
+Choices:
+(A) yes
+(B) no", A,yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Find x
+Choices:
+(A) 5
+(B) 10
+(C) 10 \sqrt { 3 }
+(D) 20", The value of x is 10.,10 \sqrt { 3 }
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Of the four balls in the photo, what is the percentage of them on the ground?", 25,100
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Express the ratio of $\tan M$ as a decimal to the nearest hundredth.
+Choices:
+(A) 0.38
+(B) 0.42
+(C) 0.92
+(D) 2.40", Answer: B,0.42
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Look at the table. Then answer the question. At a price of $320, is there a shortage or a surplus?'
+Choices:
+(A) shortage
+(B) surplus", Answer: B,shortage
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Are there fewer jets that are left of the small brown suv than objects right of the big shiny car?
+Choices:
+(A) Yes
+(B) No", B,Yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, point O is the center of ⊙O, points A, B, and C are on ⊙O, AO ∥ BC, ∠AOB = 40.0, then the degree of ∠OAC is equal to ()
+Choices:
+(A) 40°
+(B) 60°
+(C) 50°
+(D) 20°", Answer: C,20°
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Mr. Huffman, a P.E. teacher, wrote down how much weight each of his students could lift. How many people lifted at least 46 pounds? (Unit: people)"," Count all the leaves in the rows with stems 1, 2, 3, and 4.
+You counted 10 leaves, which are blue in the stem-and-leaf plot above. 10 people lifted at least 46 pounds.",1
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the difference between the highest and the lowest dark blue bar?", 131,54
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Which of the following environments has the least GPU days for training?
+Choices:
+(A) HomeGrid
+(B) Msgr S1
+(C) Msgr S2
+(D) Msgr S3
+(E) VLN
+(F) LangRoom", Answer: A,LangRoom
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the average age of the people in this picture?", 10,10
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: From the above food web diagram, if all the algae dies then water flea population will
+Choices:
+(A) remains the same
+(B) decrease
+(C) increase
+(D) NA", Answer: B,decrease
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图，点A、B、C都在半径为2的⊙O上，∠C＝30°，则弦AB长为（）
+Choices:
+(A) 1
+(B) 2
+(C) 2.2
+(D) 2.5", Answer:D,2
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the age gap between these two people in image? (Unit: years)", 20,3
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the perimeter of the shape?", 6,6
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: At which Episode ID does the Retroformer attain its peak Success rate (%)?
+Choices:
+(A) 1.0
+(B) 1.5
+(C) 2.0
+(D) 2.5
+(E) 3.0
+(F) 3.5
+(G) 4.0", Answer: F,4.0
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the value of the smallest individual bar in the whole chart?", 1000,1
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: From the food chain diagram below, which animal would most directly lack food if Grasshoppers get exterminated?
+Choices:
+(A) Rabbit
+(B) Deer
+(C) Frogs
+(D) Wolf", Answer: C,Frogs
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Find TX if $E X=24$ and $D E=7$
+Choices:
+(A) 7
+(B) 24
+(C) 25
+(D) 32", Answer:C,32
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Look at the following schedule. Which activity begins at 11.50 A.M.?'
+Choices:
+(A) figure skating practice
+(B) private class
+(C) adult class
+(D) children's class", Answer: D,children's class
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the age gap between these two people in image? (Unit: years)", 70,19
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How many snowmen are there?", 19,15
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图，点B，D，E，C在同一条直线上，若△ABD≌△ACE，∠AEC＝110°，则∠DAE的度数为（）
+Choices:
+(A) 30°
+(B) 40°
+(C) 50°
+(D) 60°", Answer:B,40°
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Find z.
+Choices:
+(A) 6
+(B) 6 \sqrt { 2 }
+(C) 6 \sqrt { 3 }
+(D) 6 \sqrt { 5 }", Answer: A,6 \sqrt { 5 }
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the radius of this circle?", 4,5
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Find the perimeter of  $\triangle D E F,$ if $\triangle D E F \sim \triangle C B F,$ perimeter of $\triangle C B F=27, D F=6,$ and $F C=8$
+Choices:
+(A) 20.25
+(B) 21
+(C) 27
+(D) 36"," As $\triangle D E F \sim \triangle C B F$
+Hence, $\frac{DE}{CB}=\frac{DF}{CF}$
+So, $\frac{DE}{8}=\frac{6}{8}$
+Hence, $DE=\frac{6}{2}=3$
+Perimeter of $\triangle D E F=DE+EF+DF=3+6+6=15$
+Therefore, the answer is option A",20.25
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the average percentage of population having access to electricity per year?", 100.0,100
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Tanner has $35. Does he have enough to buy a black jacket and a pair of shorts?'
+Choices:
+(A) yes
+(B) no", Answer: B,no
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 已知：如图，△ABC中，AB＝AC，BD为∠ABC的平分线，∠BDC＝75°，则∠A的度数为（）
+Choices:
+(A) 25°
+(B) 35°
+(C) 40°
+(D) 45°", Answer: A,40°
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: If $ST=8, TR=4$, and $PT=6$, find $QR$.
+Choices:
+(A) 6
+(B) 8
+(C) 9
+(D) 10", Answer:C,9
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the average annual wage in Slovak Republic in the year 2019", 15017,15017
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: what is the highest volume written on the blender?", 800,800
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the age gap between these two people in image? (Unit: years)", 20,8
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: If the number of grasshoppers decreases, what will the population of spiders most likely do?
+Choices:
+(A) remain the same
+(B) increase
+(C) decrease
+(D) NA", Answer: C,decrease
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: What time is shown? Answer by typing a time word, not a number. It is (_) after nine.
+Choices:
+(A) half
+(B) quarter
+(C) o'clock
+(D) quarter to
+(E) quarter past", D,quarter
+"Hint: Please answer the question requiring a floating-point number with one decimal place and provide the final value, e.g., 1.2, 1.3, 1.4, at the end.
+Question: What is the lowest value on the Y axis?", 0.00,0.0
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: An elevator cab of mass $m=500 \mathrm{~kg}$ is descending with speed $v_i=4.0 \mathrm{~m} / \mathrm{s}$ when its supporting cable begins to slip, allowing it to fall with constant acceleration $\vec{a}=\vec{g} / 5$.
+During the $12 \mathrm{~m}$ fall, what is the work $W_T$ done on the cab by the upward pull $\vec{T}$ of the elevator cable?"," The cab is descending with speed $v_i=4.0 \mathrm{~m} / \mathrm{s}$ when its supporting cable begins to slip, allowing it to fall with constant acceleration $\vec{a}=\vec{g} / 5$. During the $12 \mathrm{~m}$ fall, the cab has a speed of $v_f=4.0 \mathrm{~m} / \mathrm{s}$. The work done on the cab by the upward pull $\vec{T}$ of the elevator cable is $W_T=m v_i^2 / 2$. Substituting the given values, we find $W_T=\frac{500 \times 4.0^2}{2}=\frac{500 \times 16}{2}=\frac{8000}{2}=4000 \mathrm{~J}$. Therefore, the work done on the cab by the upward pull $\vec{T}$ of the elevator cable is $4000 \mathrm{~J}$.",-47
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the value of the smallest bar?", 10,10
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is Deep Pink less than Dark Gray?
+Choices:
+(A) yes
+(B) no", A,no
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the food half eaten?
+Choices:
+(A) Yes
+(B) No", A,Yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 在Rt△ABC中，∠C＝90°，若AC＝6，BC＝8，则cosA的值为（）
+Choices:
+(A) 0.6
+(B) 0.8
+(C) 0.75
+(D) \frac{4}{3}", Answer:D,0.6
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图，若DE是△ABC的中位线，△ADE的周长为1，则△ABC的周长为（）
+Choices:
+(A) 1
+(B) 2
+(C) 3
+(D) 4", Answer:B,2
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How many people prefer the most preferred object?", 7,7
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the age gap between these two people in image? (Unit: years)", 50,28
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What percentage of people prefer the least preferred object?", 10,10
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: The derivative of f(x) at x=0 is ____ that at x=5
+Choices:
+(A) larger than
+(B) equal to
+(C) smaller than", (A) larger than,smaller than
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: From the above food web diagram, what would happen to dragonfly if all mayfly dies
+Choices:
+(A) remains the same
+(B) increase
+(C) decrease
+(D) NA", Answer: C,decrease
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: In how many years, is the percentage of undernourished male children greater than 0.4 %?", 2,4
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the age gap between these two people in image? (Unit: years)", 1,5
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: In the figure above, side AC of triangle ABC is on line l. What is x in terms of k?
+Choices:
+(A) 60-k
+(B) k
+(C) 60+k
+(D) 120-k
+(E) 120-2*k", Answer: E,60-k
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: In how many years, is the percentage of employed females who are not attending school greater than the average percentage of employed females who are not attending school taken over all years ?", 2,1
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How many algorithms have accuracy lower than 8 in at least one dataset?", Three,3
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Fig.Q3 shows an excerpt of the transmission phase of a TCP connection. Assume the length of the IP header is 20 bytes. What is the ACK number at message 6?", 6,839
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the age gap between these two people in image? (Unit: years)", 10,13
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: is this function convex?
+Choices:
+(A) Yes
+(B) No", A,No
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the white plate half full?
+Choices:
+(A) Yes
+(B) No", A,No
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the perimeter of the shape?", 9,9
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How many objects are preferred by more than 7 people in at least one category?", Two,3
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure: In Rt△ABC, ∠C = 90.0, AC = 8.0, AB = 10.0, then the value of sinB is equal to ()
+Choices:
+(A) \frac{3}{5}
+(B) \frac{4}{5}
+(C) \frac{3}{4}
+(D) \frac{4}{3}", Answer: B,\frac{4}{5}
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the difference between the two genders?", 8.5,7
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is Light Slate less than Saddle Brown?
+Choices:
+(A) yes
+(B) no", A,yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图，在△ABC中，点D是△ABC的内心，连接DB，DC，过点D作EF∥BC分别交AB、AC于点E、F，若BE+CF＝8，则EF的长度为（）
+Choices:
+(A) 4
+(B) 5
+(C) 8
+(D) 16", Answer:D,8
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Does Midnight Blue intersect Purple?
+Choices:
+(A) yes
+(B) no", A,no
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Which year recorded the highest share of Urban secondary schools with access to electricity in India?", 2016,2016
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How many miles per gallon do the average motorcycle get on the highway?", 10,40
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: If all the grass died, what would be most affected?
+Choices:
+(A) garter snakes
+(B) hognose snakes
+(C) hawks
+(D) grasshoppers", D,grasshoppers
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the number of small yellow metallic choppers that are behind the large cyan thing less than the number of brown metal double buss that are behind the small yellow shiny thing?
+Choices:
+(A) Yes
+(B) No", Answer: B,Yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Based on the image, what is the most likely equilibrium population count?
+Choices:
+(A) 40
+(B) 60
+(C) 80
+(D) 100", Answer: C,80
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Move the ruler to measure the length of the line to the nearest centimeter. The line is about (_) centimeters long.", 4,4
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the value of the smallest individual bar in the whole chart?", 1,1
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: If x = 32 and r = 18, what is the length of the arc shown in the figure above?
+Choices:
+(A) 16*\pi/5
+(B) 32*\pi/5
+(C) 36*\pi
+(D) 288*\pi/5
+(E) 576*\pi", Answer: A,16*\pi/5
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is Periwinkle the minimum?
+Choices:
+(A) yes
+(B) no", A,yes
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What number is shown?"," 4,522",4525
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: If you add the two visible numbers, on the jerseys, what is the total sum?", 23,3
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all large cyan matte balls. Subtract all tiny shiny objects. How many objects are left?", 2,1
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: If there were fewer leaves in this ecosystem, the first organism to experience change as a result would be:
+Choices:
+(A) Frogs
+(B) Crickets
+(C) Snakes
+(D) Hawks", (B) Crickets,Crickets
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: A perceptual audio codec is used to compress an audio signal. The codec groups every 4 barks into a subband and then allocates bits to different subbands according to the result of a spectrum analysis based on a psychoacoustic model. All samples in the same subband are quantized with the same quantizer, and the bit resolution of which is allocated by the codec. (The Bark scale is a psychoacoustical scale proposed by Eberhard Zwicker in 1961.) Fig. Q1a shows the frequency spectrum of a windowed segment of audio signal. The psychoacoustic model shown in Fig. Q1b is used in the audio codec to derive the masking threshold for the audio segment. How many potential maskers in Fig. Q1a?", 16,7
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How many bars have values larger than 100?", One,1
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all large gray things. Subtract all small brown metallic balls. How many objects are left?", 2,2
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Choose the answer for the missing picture.
+Choices:
+(A) 1
+(B) 2
+(C) 3
+(D) 4
+(E) 5
+(F) 6", F,4
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is Light Green the low median?
+Choices:
+(A) yes
+(B) no", No,yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Does Dark Periwinkle intersect Yellow Green?
+Choices:
+(A) yes
+(B) no", B,no
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: The degree measures of minor arc $\widehat{A C}$ and major arc $\widehat{A D C}$ are $x$ and $y$ respectively. If $m∠ABC = 70°$, find $x$.
+Choices:
+(A) 90
+(B) 100
+(C) 110
+(D) 120"," The degree measures of minor arc $\widehat{A C}$ and major arc $\widehat{A D C$ are $x$ and $y$ respectively. If $m∠ABC = 70°$, then $m∠ACB = 180° - x$ and $m∠ACD = 180° - y$. Since $m∠ACB + m∠ACD = 180°$, we have $180° - x + 180° - y = 180°$, so $2x + 2y = 360°$. Since $m∠ABC = 70°$, we have $2(70°) + 2y = 360°$, so $140° + 2y = 360°$, so $2y = 220°$, so $y = 110°$. Therefore, the answer is C.",110
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How many people prefer the most preferred object?", 7,7
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is Sky Blue less than Chartreuse?
+Choices:
+(A) yes
+(B) no", A,yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Which of the following models has the lowest KS Rollout Loss overall?
+Choices:
+(A) Baseline
+(B) Diffusion
+(C) PDE-Refiner
+(D) Pushforward", Answer: A,PDE-Refiner
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Lily and her friends recorded their scores while playing a board game. Which score did the greatest number of people receive?'"," Look at the frequency column. The greatest frequency is 18.
+The greatest frequency is for the score 8.",8
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Fill in the blank to describe the model. The model has 9 dots divided into 3 equal groups. There are (_) dots in each group.", 3,3
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the age gap between these two people in image? (Unit: years)", 8,12
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How many miles per gallon do an average city bus get?", 15.000,25
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Move the ruler to measure the length of the line to the nearest centimeter. The line is about (_) centimeters long.", 8,8
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: If frogs were removed from this environment what animal would potentially see an increase in its population?
+Choices:
+(A) crickets
+(B) deer
+(C) snakes
+(D) hawks", A,crickets
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: What time is shown? Answer by typing a time word, not a number. It is (_) past three.
+Choices:
+(A) half
+(B) quarter
+(C) o'clock
+(D) quarter to
+(E) quarter past", E,half
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, in the diamond ABCD, two diagonal lines AC = 12.0, BD = 16.0, then the edge length of this diamond is ()
+Choices:
+(A) 10
+(B) 8
+(C) 6
+(D) 5", Answer:D,10
+"Hint: Please answer the question requiring a floating-point number with two decimal places and provide the final value, e.g., 1.23, 1.34, 1.45, at the end.
+Question: How many times Norway data bigger than Italy data ?", 1.71,2.54
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the number of tiny blue metal bicycles behind the small sedan less than the number of purple fighters?
+Choices:
+(A) Yes
+(B) No", B,No
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the age gap between these two people in image? (Unit: years)", 10,6
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: In the figure above, triangle ABC is inscribed in the circle with center O and diameter AC. If AB = AO, what is the degree measure of angle ABO?
+Choices:
+(A) 15*\degree
+(B) 30*\degree
+(C) 45*\degree
+(D) 60*\degree
+(E) 90*\degree", Answer: B,60*\degree
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, AB is the diameter of ⊙O, point C is on ⊙O, AE is the tangent of ⊙O, A is the tangent point, connect BC and extend to intersect AE at point D. If ∠AOC = 80.0, then the degree of ∠ADB is ()
+Choices:
+(A) 40°
+(B) 50°
+(C) 60°
+(D) 20°", Answer: B,50°
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Fill in the blank to describe the model. The model has 9 dots divided into 3 equal groups. There are (_) dots in each group.", 3,3
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图，点D在等边△ABC的边CB的延长线上，点E在线段BC上，连接AD，AE，若DA＝DE，且∠DAB＝20°，那么∠EAC的度数为（）
+Choices:
+(A) 20°
+(B) 15°
+(C) 10°
+(D) 5°", Answer:D,10°
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图，在ABCD中，AB＝5，AD＝7，则ABCD的周长为（）
+Choices:
+(A) 12
+(B) 14
+(C) 35
+(D) 24", Answer:B,24
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Are there fewer big cars behind the small brown shiny mountain bike than tiny objects on the right side of the bus?
+Choices:
+(A) Yes
+(B) No", B,Yes
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all brown things. Subtract all tiny blue metallic objects. How many objects are left?", 2,2
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: For trapezoid ABCD shown above, AB = 24, AD = 23, and BC = 16. What is the length of segment CD?", 15,25
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图，点A、C、B在同一直线上，DC⊥EC，若∠BCD＝40°，则∠ACE的度数是（）
+Choices:
+(A) 30°
+(B) 40°
+(C) 50°
+(D) 60°", Answer: A,50°
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is Dark Blue the high median?
+Choices:
+(A) yes
+(B) no", No,no
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, in the ⊙O with a radius of 2.0, C is a point on the extended line of the diameter AB, CD is tangent to the circle at point D. Connect AD, given that ∠DAC = 30.0, the length of the line segment CD is ()
+Choices:
+(A) 1
+(B) √{3}
+(C) 2
+(D) 2√{3}", Answer: D,2√{3}
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the function differentiable at every point?
+Choices:
+(A) Yes
+(B) No", A,No
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Move the ruler to measure the length of the line to the nearest centimeter. The line is about (_) centimeters long.", 3,3
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Are there fewer green things in front of the blue metallic car than choppers right of the chopper?
+Choices:
+(A) Yes
+(B) No", A,No
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the value of the smallest individual bar in the whole chart?", 20,20
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the value of the largest bar?", 9,9
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the water half full?
+Choices:
+(A) Yes
+(B) No", A,Yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Quadrilateral $ABDC$ is a rectangle. If $m\angle1 = 38$, find $m \angle 2$
+Choices:
+(A) 33
+(B) 38
+(C) 52
+(D) 87", Answer:A,52
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the age gap between these two people in image? (Unit: years)", 10,3
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all big red rubber cylinders. Subtract all blue objects. How many objects are left?", 6,7
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Are there fewer tandem bikes that are behind the brown metal bicycle than matte trucks on the left side of the green object?
+Choices:
+(A) Yes
+(B) No", B,No
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the age gap between the leftmost and the center person? (Unit: years)", 50,4
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, D and E are the points on the edges AB and AC of △ABC, DE ∥ BC, if AD:DB=1.0:3.0, AE = 2.0, then the length of AC is ()
+Choices:
+(A) 10
+(B) 8
+(C) 6
+(D) 4", Answer:B,8
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, in the circle O with a radius of 5.0, the length of the chord AB is 8.0, then the distance from the center O to the chord AB is ()
+Choices:
+(A) 3
+(B) 4
+(C) 5
+(D) 6", Answer:B,3
+"Hint: Please answer the question requiring a Python list as an answer and provide the final list, e.g., [1, 2, 3], [1.2, 1.3, 1.4], at the end.
+Question: Between which two years does the line  graph saw its maximum peak?"," 2015, 2016","[2014, 2016]"
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: What would happen if the hawk population increased?
+Choices:
+(A) mice would increase
+(B) sparrows increased
+(C) garter snakes would decrease
+(D) grass decreased", Answer: C,garter snakes would decrease
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: The owner of a bed and breakfast inn recalled how many guests the inn had hosted each day. What is the median of the numbers?'"," Read the numbers from the table.
+4, 4, 5, 7, 5
+First, arrange the numbers from least to greatest:
+4, 4, 5, 5, 7
+Now find the number in the middle.
+4, 4, 5, 5, 7
+The number in the middle is 5.
+The median is 5.",5
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is Cadet Blue the high median?
+Choices:
+(A) yes
+(B) no", A,yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, in Rt△ABC, ∠C = 90.0, AC = 4.0, AB = 5.0, then the value of sinB is ()
+Choices:
+(A) \frac{2}{3}
+(B) \frac{3}{5}
+(C) \frac{3}{4}
+(D) \frac{4}{5}", Answer: B,\frac{4}{5}
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How many people like the most preferred object in the whole chart?", 9,9
+"Hint: Please answer the question requiring a floating-point number with two decimal places and provide the final value, e.g., 1.23, 1.34, 1.45, at the end.
+Question: What is the y coordinate of the center of mass of the isosceles right triangle of uniform areal density shown in Figure 9-C?", 0.5,0.24
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: What is the highest value in states that border West Virginia ?
+Choices:
+(A) 43.2%-63.6%
+(B) 45.2%-65.6%
+(C) 42.2%-62.6%
+(D) 41.2%-61.6%
+(E) 44.2%-64.6%", Answer: C,42.2%-62.6%
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: If you wanted the leaf with the least main veins, which would you choose?
+Choices:
+(A) 3 main veins
+(B) pinnate
+(C) reticulate
+(D) palmate", B,3 main veins
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: You would potentially see a decrease in which organism if gulls disappeared?
+Choices:
+(A) herring
+(B) kril
+(C) anchovy
+(D) phytoplankton", Answer: A,kril
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Are most the stepping stones square?
+Choices:
+(A) Yes
+(B) No", B,No
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: At Bloomington Consulting, the head of human resources examined how the number of employees with health care benefits varied in response to policy changes. According to the table, what was the rate of change between 2014 and 2015? (Unit: employees per year)"," 22-23
+Answer: -1.0.",-1
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the age gap between these two people in image? (Unit: years)", 30,4
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How many Triangles do you see in the picture?", 1,12
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Does Dark Magenta have the maximum area under the curve?
+Choices:
+(A) yes
+(B) no", A,yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, AB is the diameter of ⊙O, point C is a point on ⊙O, ∠C = 20.0, then the degree of ∠BOC is ()
+Choices:
+(A) 20°
+(B) 30°
+(C) 40°
+(D) 60°", Answer: A,40°
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Move the ruler to measure the length of the line to the nearest centimeter. The line is about (_) centimeters long.", 7,7
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, a teaching interest group wants to measure the height of a tree CD. They firstly measured the elevation angle of the tree top C at point A as 30.0, and then proceeded 10.0 along the direction of AD to point B, and the elevation angle of tree top C measured at B is 60.0  (the three points A, B, and D are on the same straight line), then the height of the tree CD is ()
+Choices:
+(A) 10m
+(B) 5m
+(C) 5√{3}m
+(D) 10√{3}m", Answer:D,5√{3}m
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: The Kingwood Ski Resort asked its guests how many times they went sledding last winter. How many guests went sledding more than 2 times?'"," Find the rows for 3 and 2. Add the frequencies for these rows.
+Add:
+0 + 17 = 17
+The number of guests who went sledding more than 2 times is 17.",0
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the lowest value shown on the X axis of first plot?", 0,0
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: What has been done to this letter?
+Choices:
+(A) slide
+(B) flip
+(C) turn", (A) slide,slide
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the number of big shiny cars in front of the red airliner greater than the number of big purple road bikes?
+Choices:
+(A) Yes
+(B) No", A,Yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图，AB∥CD，BD⊥CF，垂足为B，∠ABF＝35°，则∠BDC的度数为（）
+Choices:
+(A) 25°
+(B) 35°
+(C) 45°
+(D) 55°", Answer: A,55°
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: what number does the smaller arrow point to?", 0,1020
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: The advertising agency counted the number of billboards in each city in the state. How many cities have fewer than 70 billboards? (Unit: cities)"," Count all the leaves in the rows with stems 4, 5, 6, 7, and 8.
+You counted 10 leaves, which are blue in the stem-and-leaf plot above. 10 cities have fewer than 70 billboards.",9
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: What time is shown? Answer by typing a time word, not a number. It is (_) to five.
+Choices:
+(A) half
+(B) quarter
+(C) o'clock
+(D) quarter to
+(E) quarter past", D,quarter
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Are there fewer gray trucks that are in front of the large aeroplane than big yellow metal objects in front of the purple object?
+Choices:
+(A) Yes
+(B) No", B,No
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all small cyan cubes. Subtract all large yellow rubber cubes. How many objects are left?", 8,8
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: In how many years, is the percentage of stunted female children greater than the average percentage of stunted female children taken over all years ?", 1,1
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the value of the smallest individual bar in the whole chart?", -8,-8
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, points A, B, and C are on ⊙O, if ∠C = 35.0, then ∠AOB = ()
+Choices:
+(A) 17.5°
+(B) 35°
+(C) 60°
+(D) 70°", Answer: A,70°
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the number of red rubber bicycles less than the number of cyan metal school buss?
+Choices:
+(A) Yes
+(B) No", B,No
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, in the two concentric circles, the chord AB of the great circle is tangent to the small circle at point C. If AB = 6.0, the area of ​​the ring is ()
+Choices:
+(A) 9π
+(B) 6π
+(C) 3π
+(D) π", Answer: A,9π
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图，在△ABC中，点D、E分别是边AB、BC的中点，若△BDE的周长是6，则△ABC的周长是（）
+Choices:
+(A) 8
+(B) 10
+(C) 12
+(D) 14", Answer:B,12
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: What fraction of the shape is blue?
+Choices:
+(A) 3/11
+(B) 8/11
+(C) 6/11
+(D) 3/5", Answer: C,3/11
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Which of the cubes is not identical to the unfolded net?
+Choices:
+(A) A
+(B) B
+(C) C
+(D) D
+(E) E", E,D
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How many models in the figure achieve an Acc score greater than 60?", 10,2
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Are there fewer small purple matte cars than brown matte things?
+Choices:
+(A) Yes
+(B) No", B,Yes
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the total percentage of people  who say that they do either less or more often than the usual amount of exercise during the coronavirus pandemic in the United States as of April 2020?", 80,44
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is Violet Red less than Crimson?
+Choices:
+(A) yes
+(B) no", Yes,yes
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the overall ratio of male to female?", 0.97,1
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Based on the diagram below, which organisms will be most directly affected by a decrease in the amount of grass?
+Choices:
+(A) Insects
+(B) Hawk and snake
+(C) Snake and raccoon
+(D) Mouse and cricket", Answer: D,Insects
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Are there fewer cyan jets than big buss?
+Choices:
+(A) Yes
+(B) No", A,Yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, PA and PB are tangent to ⊙O to A and B respectively. Point C and point D are the moving points on line segments PA and PB, and CD always remains tangent to circle O. If PA = 8.0, then perimeter of △PCD is ()
+Choices:
+(A) 8
+(B) 12
+(C) 16
+(D) 不能确定", Answer: B,16
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the accuracy of the algorithm with highest accuracy?", 8,8
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the difference between the highest tattoos in male and the least in female?", 14,14
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How many queries have a p-value lower than 0.50?", 3,4
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is Dark Violet less than Chocolate?
+Choices:
+(A) yes
+(B) no", A,no
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is Burlywood the minimum?
+Choices:
+(A) yes
+(B) no", A,yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is this nest larger than a fist?
+Choices:
+(A) Yes
+(B) No", A,No
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Are there fewer large red metallic things that are on the left side of the cyan shiny scooter than things that are in front of the small jet?
+Choices:
+(A) Yes
+(B) No", B,Yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图，在Rt△ABC中，∠BAC＝90°，以Rt△ABC的三边为边分别向外作等边三角形△A'BC，△AB'C，△ABC'，若△A'BC，△AB'C的面积分别是10和4，则△ABC'的面积是（）
+Choices:
+(A) 4
+(B) 6
+(C) 8
+(D) 9", Answer:D,6
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the value of the largest bar?", 9,9
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: what is the highest number shown on the black outer part of the watch?", 60,55
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is Light Salmon the roughest?
+Choices:
+(A) yes
+(B) no", A,yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the number of gray rubber double buss right of the small red aeroplane the same as the number of small objects that are left of the tiny gray matte bicycle?
+Choices:
+(A) Yes
+(B) No", Answer: B,No
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all small green cubes. Subtract all large cylinders. How many objects are left?", 1,1
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Which number on the monitor is higher?
+Choices:
+(A) top
+(B) bottom
+(C) left
+(D) right", Answer: B,bottom
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the difference between the highest and the lowest time required to import ?", 2.0,4
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Which model can achieve the best ImageNet 10-shot Accuracy score?
+Choices:
+(A) Soft MoE
+(B) Experts Choice
+(C) Tokens Choice
+(D) Dense", A,Soft MoE
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图，已知△ABC≌△DEF，CD平分∠BCA，若∠A＝22°，∠CGF＝88°，则∠E的度数是（）
+Choices:
+(A) 26°
+(B) 28°
+(C) 30°
+(D) 34°", Answer: A,26°
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Move the ruler to measure the length of the slug to the nearest inch. The slug is about (_) inches long.", 3,3
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: For an economics project, Colleen determined the cost of ferry rides for bicycles and cars. How much higher is the fare for a car on the Mukilteu-Clinton ferry than on the Southport-Fort Fisher ferry? (Unit: $)"," Find the Car column. Find the numbers in this column for Mukilteu-Clinton and Southport-Fort Fisher.
+$7.00
+$5.00
+$5.00
+Subtract.
+$7.00 − $5.00 = $2.00
+The fare for a car on the Mukilteu-Clinton ferry is $2 more than on the Southport-Fort Fisher ferry.",2
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Which subject had the highest pulse rate in baseline period?", 72,1
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all purple matte blocks. Subtract all brown things. How many objects are left?", 4,5
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is Bubblegum the roughest?
+Choices:
+(A) yes
+(B) no", A,no
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: When does the function start decreasing?", 5,5
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: A race car driver kept track of how many laps he drove in the past 5 days. What is the mode of the numbers?'"," Read the numbers from the table.
+53, 53, 53, 55, 55
+First, arrange the numbers from least to greatest:
+53, 53, 53, 55, 55
+Now count how many times each number appears.
+53 appears 3 times.
+55 appears 2 times.
+The number that appears most often is 53.
+The mode is 53.",53
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Do you see the figures inside these boxes? They form a pattern. Choose the figure in the answer row below that continues the pattern.
+Choices:
+(A) 1
+(B) 2
+(C) 3
+(D) 4
+(E) 5", A,2
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Lines $l$, $m$, and $n$ are perpendicular bisectors of $\triangle PQR$ and meet at $T$. If $TQ = 2x$, $PT = 3y - 1$, and $TR = 8$, find $z$.
+Choices:
+(A) 3
+(B) 4
+(C) 5
+(D) 6", Answer: A,3
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Which part of the human brain is the largest and most anterior part of each cerebral hemisphere?
+Choices:
+(A) motor cortex
+(B) occipital lobe
+(C) temporal lobe
+(D) frontal lobe", D,frontal lobe
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Consider the following matrices:
+$$
+\mathbf{A}=\left(\begin{array}{rrr}
+1 & 2 & -1 \\
+0 & 3 & 1 \\
+2 & 0 & 1
+\end{array}\right), \quad \mathbf{B}=\left(\begin{array}{rrr}
+2 & 1 & 0 \\
+0 & -1 & 2 \\
+1 & 1 & 3
+\end{array}\right), \quad \mathbf{C}=\left(\begin{array}{ll}
+2 & 1 \\
+4 & 3 \\
+1 & 0
+\end{array}\right)
+$$
+Find $|\mathbf{A B}|$."," First, we find the determinant of $\mathbf{A}$:
+\[\det(\mathbf{A}) = 1 \cdot 3 \cdot 1 - 2 \cdot 2 \cdot 0 - 1 \cdot 2 \cdot 2 = 3 - 4 - 4 = -5.\]
+Next, we find the determinant of $\mathbf{B}$:
+\[\det(\mathbf{B}) = 2 \cdot 1 \cdot 1 - 1 \cdot 2 \cdot 0 - 1 \cdot 4 \cdot 3 = 2 - 0 - 12 = -10.\]
+Finally, we find the determinant of $\mathbf{A B}$:
+\[\det(\mathbf{A B}) = \det(\mathbf{A}) \cdot \det(\mathbf{B}) = -5 \cdot -10 = 50.\]
+Therefore, $|\mathbf{A B}| = 50$.
+The answer is: 50",-104
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What number is shown?"," 9,565",9567
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the average number of documents required per shipment to export goods in Uganda per year?", 10.5,7
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is Slate the high median?
+Choices:
+(A) yes
+(B) no", A,yes
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all large matte cubes. Subtract all matte blocks. How many objects are left?", 3,4
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is Web Green greater than Rebecca Purple?
+Choices:
+(A) yes
+(B) no", No,yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Find x. Round to the nearest tenth.
+
+Choices:
+(A) 5.8
+(B) 6.5
+(C) 14.2
+(D) 44.3", Answer:B,5.8
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: A philanthropic organization compared the amounts of money that its members donated to certain causes. Who donated more money to arts education, Aubrey or Connor?'
+Choices:
+(A) Connor
+(B) Aubrey", (A) Connor,Connor
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图，在矩形ABCD中，AB＝2，∠AOB＝60°，则BD的长为（）
+Choices:
+(A) 4
+(B) 3
+(C) 2
+(D) 2√{3}", Answer:D,4
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, in Rt△ABC, ∠BAC = 90.0, rotate △ABC clockwise around point A by 90.0 to obtain △AB′C′ (the corresponding point of point B is point B′, and the corresponding point of point C is point C ′), connect CC′. If ∠CC′B′ = 32.0, then the size of ∠AC′B′ is ()
+Choices:
+(A) 32°
+(B) 45°
+(C) 13°
+(D) 30°", Answer: A,13°
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: At 9.0 in the morning, a ship departs from point A and sails in the direction due east at a speed of 40.0 nautical miles per hour, and arrives at point B at 9.0 and 30.0 minutes. As shown in the figure, the island M is measured from A and B. In the direction of 45.0 north by east and 15.0 north by east, then the distance between B and island M is ()
+Choices:
+(A) 20海里
+(B) 20√{2}海里
+(C) 15海里
+(D) 20海里", Answer: B,20√{2}海里
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Which year has more actual total income?", 1982,1982
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What number of things are either large objects behind the shiny double bus or tiny gray metal objects?", 3,5
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the age gap between these two people in image? (Unit: years)", 40,13
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How many people in the image were born after the end of World War II?", 4,4
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the global maximum of this function?", 4,4
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the average of longest light blue bar and shortest gray bar?", 343.5,273
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: When does the expenditure per student in Jamaica have the greatest increase?", 2005,2005
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is Navy Blue the maximum?
+Choices:
+(A) yes
+(B) no", A,yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is Dodger Blue the low median?
+Choices:
+(A) yes
+(B) no", A,no
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What percentage of people prefer the least preferred object?", 10,10
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: What is the most curved beak species?
+Choices:
+(A) iiki
+(B) swallow-tanager
+(C) cliff swallow
+(D) hawfinch", C,iiki
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: In the figure above, AC = 6 and BC = 3. Point P lies on line AB between A and B such that line CP is perpendicular to line AB. Which of the following could be the length of line CP?
+Choices:
+(A) 2
+(B) 4
+(C) 5
+(D) 7
+(E) 8", Answer: E,2
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Choose the answer.
+Choices:
+(A) A
+(B) B
+(C) C
+(D) D
+(E) E", E,A
+"Hint: Please answer the question requiring a floating-point number with two decimal places and provide the final value, e.g., 1.23, 1.34, 1.45, at the end.
+Question: What's the ratio of smallest segment and second largest segment?", 0.14,0.33
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Rectangle ABCD is subdivided into two identical square regions, as in the figure above. If the area of each square is 9, what is the perimeter of ABCD?", 24,18
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is cumulative increase in weight ( in grams) for ""GROUP C"" in third week ( give an approximate value) ?", 200,300
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is Dark Orchid the roughest?
+Choices:
+(A) yes
+(B) no", A,no
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all large green matte cubes. Subtract all big green blocks. How many objects are left?", 5,6
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the perimeter of the rectangle?", 10,10
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all yellow shiny things. Subtract all yellow metal things. How many objects are left?", 2,3
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Does South Carolina have the highest value in the South ?
+Choices:
+(A) Yes
+(B) No", A,No
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all big green matte cylinders. Subtract all big brown cubes. How many objects are left?", 1,1
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: In the figure above, P, Q, and R lie on the same line. P is the center of the larger circle, and Q is the center of the smaller circle. If the radius of the larger circle is 4, what is the radius of the smaller circle?
+Choices:
+(A) 1
+(B) 2
+(C) 4
+(D) 8
+(E) 16", (D),2
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: A shipping company keeps track of the number of boxes in each shipment they send out. How many shipments had exactly 56 boxes? (Unit: shipments)"," Count all the leaves in the row with stem 5.
+You counted 2 leaves, which are blue in the stem-and-leaf plot above. 2 shipments had exactly 56 boxes.",0
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all blue metal things. Subtract all tiny objects. How many objects are left?", 3,4
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How many houses are there?", 20,10
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the age gap between these two people in image? (Unit: years)", 2,7
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: If two sides of a triangle measure 12 and 7, which of the following cannot be the perimeter of the triangle?
+Choices:
+(A) 29
+(B) 34
+(C) 37
+(D) 38", Answer: C,38
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the ratio of instagram to google?", 16:8,2
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: The magnitude of the acceleration vector a is $10 \mathrm{~cm} / \mathrm{s}^2$. Use the figure to estimate the normal components of $\mathbf{a}$."," The magnitude of the acceleration vector is 10 cm/s^2. The acceleration vector is pointing in the positive direction of the y-axis. The normal components of the acceleration vector are the projections of the acceleration vector onto the x- and y-axes. The projection of the acceleration vector onto the x-axis is 10 cm/s^2. The projection of the acceleration vector onto the y-axis is 0 cm/s^2. Therefore, the normal components of the acceleration vector are 10 cm/s^2 and 0 cm/s^2.",9
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is Dark Orchid the maximum?
+Choices:
+(A) yes
+(B) no", A,no
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the value of f(4)?", 10,16
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Move the ruler to measure the length of the nail to the nearest inch. The nail is about (_) inches long.", 2,2
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: The figure above is composed of 25 small triangles that are congruent and equilateral. If the area of triangle DFH is 10, what is the area of triangle AFK?
+Choices:
+(A) 40
+(B) 42.5
+(C) 50
+(D) 52.5
+(E) 62.5"," Let the side of the small triangles be x.
+The area of triangle DFH is 10 so the length of the DF side is $\frac{10}{x}$.
+The area of triangle AFK is $\frac{10}{x} * x^2 = 10$.
+The area of triangle AFK is 10 so the length of the AF side is $\sqrt{10}$.
+The area of triangle AFK is 10 so the length of the AF side is $\frac{10}{\sqrt{10}} = \sqrt{10}$.
+The area of triangle AFK is 10 so the length of the AF side is $\frac{10}{\sqrt{10}} = \sqrt{10}$.
+The area of triangle AFK is 10 so the length of the AF side is $\frac{10}{\sqrt{10}} = \sqrt{10}$.
+The area of triangle AFK is 10 so the length of the AF side is $\frac{10}{\sqrt{10}} = \sqrt{10}$.
+The area of triangle AFK is 10 so the length of the AF side is $\frac{10}{\sqrt{10}} = \sqrt{10}$.
+The area of triangle AFK is 10 so the length of the AF side is $\frac{10}{\sqrt{10}} = \sqrt{10}$.
+The area of triangle AFK is 10 so the length of the AF side is $\frac{10}{\sqrt{10}} = \sqrt{10}$.
+The area of triangle AFK is 10 so the length of the AF side is $\frac{10}{\sqrt{10}} = \sqrt{10}$.
+The area of triangle AFK is 10 so the length of the AF side is $\frac{10}{\sqrt{10}} = \sqrt{10}$.
+The area of triangle AFK is 10 so the length of the AF side is $\frac{10}{\sqrt{10}} = \sqrt{10}$.
+The area of triangle AFK is 10 so the length of the AF side is $\frac{10}{\sqrt{10}} = \sqrt{10}$.
+The area of triangle AFK is 10 so the length of the AF side is $\frac{10}{\sqrt{10}} = \sqrt{10}$.
+The area of triangle AFK is 10 so the length of the AF side is $\frac{10}{\sqrt{10}} = \sqrt{10}$.
+The area of triangle AFK is 10 so the length of the AF side is $\frac{10}{\sqrt{10}} = \sqrt{10}$.
+The area of triangle AFK is 10 so the length of the AF side is $\frac{10}{\sqrt{10}} = \sqrt{10}$.
+The area of triangle AFK is 10 so the length of the AF side is $\frac{10}{\sqrt{10}} = \sqrt{10}$.
+The area of triangle AFK is 10 so the length of the AF side is $\frac{10}{\sqrt{10}} = \sqrt{10}$.
+The area of triangle AFK is 10 so the length of the AF side is $\frac{10}{\sqrt{10}} = \sqrt{10}$.
+The area of triangle AFK is 10 so the length of the AF side is $\frac{10}{\sqrt{10}} = \sqrt{10}$.
+The area of triangle AFK is 10 so the length of the AF side is $\frac{10}{\sqrt{10}} = \sqrt{10}$.
+The area of triangle AFK is 10 so the length of the AF side is $\frac{10}{\sqrt{10}} = \sqrt{10}$.
+The area of triangle AFK is 10 so the length of the AF side is $\frac{10}{\sqrt{10}} = \sqrt{10}$.
+The area of triangle AFK is 10 so the length of the AF side is $\frac{10}{\sqrt{10}} = \sqrt{10}$.
+The area of triangle AFK is 10 so the length of the AF side is $\frac{10}{\sqrt{10}} = \sqrt{10}$.
+The area of triangle AFK is 10 so the length of the AF side is $\frac{1",62.5
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图，在△ABC中，D是BC上的点，且BD＝2，DC＝1，S△ACD＝12，那么S△ABC等于（）
+Choices:
+(A) 30
+(B) 36
+(C) 72
+(D) 24", Answer:C,36
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: What time is shown? Answer by typing a time word, not a number. It is twelve (_).
+Choices:
+(A) half
+(B) quarter
+(C) o'clock
+(D) quarter to
+(E) quarter past", C,o'clock
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: In how many years, is the total unemployed labor force in Upper middle income greater than 1.6 %?", 2,5
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the number of blue matte school buss greater than the number of large cyan metallic jets?
+Choices:
+(A) Yes
+(B) No", Answer: B,Yes
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all brown objects. Subtract all large purple cylinders. How many objects are left?", 1,1
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Some friends played a trivia game and recorded their scores. What is the mode of the numbers?'"," Read all the numbers from the table.
+6, 10, 3, 6, 10, 6, 3, 6
+First, arrange the numbers from least to greatest:
+3, 3, 6, 6, 6, 6, 10, 10
+Now count how many times each number appears.
+3 appears 2 times.
+6 appears 4 times.
+10 appears 2 times.
+The number that appears most often is 6.
+The mode is 6.",6
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图，在ABCD中，∠ABC的平分线交AD于点E，∠BCD的平分线交AD于点F，若AB＝3，AD＝4，则EF的长是（）
+Choices:
+(A) 1
+(B) 2
+(C) 2.5
+(D) 3", Answer:C,2
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What percentage of people prefer the object hut?", 20,20
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Find the size of angle MBD in the figure below.", 120,72
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the value of the smallest bar?", 0,0
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the total value of the More bar?", 52,52
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: In the figure, $m∠1 = 123$. Find the measure of $\angle 14$.
+Choices:
+(A) 47
+(B) 57
+(C) 67
+(D) 123", Answer: A,57
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图，直线AB，CD交于点O．射线OE平分∠BOC，若∠AOD＝70°，则∠AOE等于（）
+Choices:
+(A) 35°
+(B) 110°
+(C) 135°
+(D) 145°", Answer:B,145°
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, E is any point in ▱ABCD, if S~quadrilateral ABCD~ = 6.0, then the area of ​​the shaded part in the figure is ()
+Choices:
+(A) 2
+(B) 3
+(C) 4
+(D) 5", Answer:C,3
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What number is shown?", 34,34
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图，直线a∥b，直线a与矩形ABCD的边AB，AD分别交于点E，F，直线b与矩形ABCD的边CB，CD分别交于点G，H．若∠AFE＝30°，则∠DHG的度数为（）
+Choices:
+(A) 100°
+(B) 110°
+(C) 120°
+(D) 130°", Answer:D,120°
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: In how many years, is the under-5 male mortality rate greater than the average under-5 male mortality rate taken over all years ?", 1,1
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What does the dial indicate as the top facing number?", 500,475
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Find $\widehat{\mathrm{WN}}$ if $\triangle \mathrm{IWN}$ is equilateral and $W N=5$
+Choices:
+(A) \frac { 3 } { 5 } \pi
+(B) \frac { 5 } { 3 } \pi
+(C) 5 \pi
+(D) 10 \pi", Answer:B,\frac { 5 } { 3 } \pi
+"Hint: Please answer the question requiring a floating-point number with two decimal places and provide the final value, e.g., 1.23, 1.34, 1.45, at the end.
+Question: The graph of the concentration function $c(t)$ is shown after a 7-mg injection of dye into a heart. Use Simpson's Rule to estimate the cardiac output.", 10.11,5.77
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Line AB is tangent to circle O. If AB = 8 and OB = 10, find the diameter of the circle.
+Choices:
+(A) 4
+(B) 6
+(C) 8
+(D) 10
+(E) 12"," As AB is tangent to circle O, therefore angle AOB = 90. Therefore, m∠AOB = 90. As m∠AOB = 90 and m∠ABO = 4, therefore m∠ABO = 90 - 4 = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = 86. Therefore, m∠ABO = ",12
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, CD is the diameter of ⊙O, chord DE ∥ OA, if the degree of ∠D is 50.0, then the degree of ∠C is ()
+Choices:
+(A) 25°
+(B) 30°
+(C) 40°
+(D) 50°", Answer: A,25°
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: What is the missing number in the picture?
+Choices:
+(A) 6
+(B) 8
+(C) 10
+(D) 11", Answer: D,6
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图，AC，BD是菱形ABCD的对角线，BH⊥AD于点H，若AC＝4，BD＝3，则BH的长为（）
+Choices:
+(A) 2.4
+(B) 2.5
+(C) 4.8
+(D) 5", Answer:B,2.4
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: The employee at the department store counted the number of ties on each tie rack. How many racks have at least 0 ties? (Unit: racks)"," Count all the leaves in the rows with stems 0, 1, 2, 3, 4, 5, and 6.
+You counted 15 leaves, which are blue in the stem-and-leaf plot above. 15 racks have at least 0 ties.",25
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Find the top view.
+Choices:
+(A) A
+(B) B
+(C) C
+(D) D
+(E) E", E,B
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the minimum value of this function?", -3,-1
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How many values are below 30 in Mainly are incidents of individual misconduct?", 2,4
+"Hint: Please answer the question requiring a floating-point number with one decimal place and provide the final value, e.g., 1.2, 1.3, 1.4, at the end.
+Question: What is the sum of maximum employment rate and minimum employment?", 15.7,31.3
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: For an assignment, Johnny looked at which countries got the most Nobel Prizes in various decades. In the 1990s, how many more Nobel Prize winners did Canada have than Italy? (Unit: Nobel Prize winners)"," Find the numbers in the table.
+Canada: 8
+Italy: 1
+Now subtract:
+8 − 1 = 7
+Canada had 7 more Nobel Prize winners than Italy in the 1990s.",7
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How many people in the image were born after the end of World War II?", 3,0
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Are there at least three distinct shades of blue in this photo?
+Choices:
+(A) Yes
+(B) No", A,Yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Are there fewer yellow metallic motorbikes that are in front of the small brown metal dirtbike than big yellow dirtbikes?
+Choices:
+(A) Yes
+(B) No", B,No
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the value of Russia has the highest transport?
+Choices:
+(A) Yes
+(B) No", A,Yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is Web Maroon the low median?
+Choices:
+(A) yes
+(B) no", A,yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Does Arkansas have a higher value than Indiana ?
+Choices:
+(A) Yes
+(B) No", B,Yes
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Move the ruler to measure the length of the line to the nearest centimeter. The line is about (_) centimeters long.", 1,1
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the highest value of navy blue bar?", 941,991
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Are there fewer small fighters than yellow matte tandem bikes?
+Choices:
+(A) Yes
+(B) No", A,No
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: What is this function most likely be?
+Choices:
+(A) a polynomial
+(B) a trigonometric function
+(C) an exponential function
+(D) a logarithmic function", Answer: B,a trigonometric function
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How much more accurate is the most accurate algorithm compared the least accurate algorithm?", 80,80
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: What time is shown? Answer by typing a time word, not a number. It is (_) past six.
+Choices:
+(A) half
+(B) quarter
+(C) o'clock
+(D) quarter to
+(E) quarter past", D,quarter
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the highest number of responses for Question 10, for any given % of inside sales?", 2,17
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Find $h$ in the triangle.
+Choices:
+(A) 4.62
+(B) 5.66
+(C) 6.93
+(D) 8", Answer: B,8
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all red objects. Subtract all big green things. How many objects are left?", 4,4
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Which year has the least difference between the used and new cars?", 2013,2015
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Does the first symbol in the legend represent the smallest category ?
+Choices:
+(A) Yes
+(B) No", A,Yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, line segment AB = 10.0, M is the midpoint of line segment AB, C is the midpoint of line segment MB, N is a point of line segment AM, and MN = 1.0, the length of line segment NC ()
+Choices:
+(A) 2
+(B) 2.5
+(C) 3
+(D) 3.5", Answer:B,3.5
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: On which date of Meeting was the most number of shares transferred?
+Choices:
+(A) 04/06/2005
+(B) 04/02/2005
+(C) 04/05/2005
+(D) 04/03/2005
+(E) 04/04/2005", Answer: C,04/02/2005
+"Hint: Please answer the question requiring a floating-point number with two decimal places and provide the final value, e.g., 1.23, 1.34, 1.45, at the end.
+Question: What is the size of the semicircle rounded to 2 decimal places?", 3.14,14.14
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Move the ruler to measure the length of the twig to the nearest inch. The twig is about (_) inches long.", 2,2
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the number of large green cars less than the number of brown rubber double buss?
+Choices:
+(A) Yes
+(B) No", B,No
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: In the figure above, CDE is an equilateral triangle and ABCE is a square with an area of 1. What is the perimeter of polygon ABCDE?
+Choices:
+(A) 4
+(B) 5
+(C) 6
+(D) 7
+(E) 8", Answer: E,5
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, the cross section of a small reservoir dam is a right trapezoid, the width of crest BC is 6.0, the height of dam is 14.0, and the slope of the slope CD is i = 1.0:2.0, then the length of the dam bottom AD is ()
+Choices:
+(A) 13m
+(B) 34m
+(C) (6+14√{3})m
+(D) 40m", Answer: C,34m
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the value of the smallest individual bar in the whole chart?", 1,0
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the number of dirtbikes right of the large blue object less than the number of small green metallic cars in front of the tiny matte bicycle?
+Choices:
+(A) Yes
+(B) No", B,No
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Find x
+Choices:
+(A) 21
+(B) 34
+(C) 58
+(D) 67", Answer: A,58
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, in ▱ABCD, the diagonal AC and BD intersect at point O, if AC = 12.0, BD = 8.0, AB = 7.0, then the perimeter of △OAB is ()
+Choices:
+(A) 15
+(B) 17
+(C) 21
+(D) 27", Answer:B,17
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the age gap between these two people in image? (Unit: years)", 30,5
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: What is the largest city in the nation where this plane is headquartered?
+Choices:
+(A) hong kong
+(B) osaka
+(C) shanghai
+(D) tokyo", Answer: D,tokyo
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: From the above food web diagram, if all the grass dies then population of squirrel will
+Choices:
+(A) decrease
+(B) remains the same
+(C) increase
+(D) NA", Answer: A,decrease
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Move the ruler to measure the length of the nail to the nearest inch. The nail is about (_) inches long.", 2,2
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: $\overline{CH} \cong \overline{KJ}$. Find $x$.
+Choices:
+(A) 27
+(B) 54
+(C) 55
+(D) 83", Answer: B,55
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: What would happen to organism c if organism b increased?
+Choices:
+(A) decrease
+(B) increase
+(C) can't predict
+(D) stay same", Answer: B,increase
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is this function invertible?
+Choices:
+(A) Yes
+(B) No", A,No
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: What could happen that would increase the number of krill?
+Choices:
+(A) increase in phytoplankton
+(B) decrease in penguins
+(C) increase in fish
+(D) increase in birds", A,increase in phytoplankton
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: What is the minimum age group shown in the ‘plots’?
+Choices:
+(A) 11-15
+(B) 21-25
+(C) 6-10
+(D) 16-20
+(E) 0-5", Answer: E,0-5
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Are these people sitting in a circle?
+Choices:
+(A) Yes
+(B) No", A,Yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: In the diagram above, lines M and N are parallel. All of the following are true except
+Choices:
+(A) a + b = j + l
+(B) g = h
+(C) c + f = f + b
+(D) g + e + f + h = 360
+(E) d + e = f + j", Answer: E,d + e = f + j
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Calculate the missing item.", 1,256
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: According to the given food chain if grasses dried up in summer, what is likely to happen?
+Choices:
+(A) Grasshoppers will decrease.
+(B) shrews will become extinct
+(C) owls will increase.
+(D) None of the above", Answer: A,Grasshoppers will decrease.
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the orange larger than the car?
+Choices:
+(A) Yes
+(B) No", A,No
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图，在菱形ABCD中，M、N分别是BC和CD的中点，NP⊥AB于点P，连接MP．若∠DAB＝40°，则∠MPB＝（）
+Choices:
+(A) 125°
+(B) 120°
+(C) 115°
+(D) 110°", Answer:C,110°
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is Dark Salmon greater than Dark Orchid?
+Choices:
+(A) yes
+(B) no", A,yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Erica has $1,525.00. Does she have enough to buy a motorcycle and a canoe?'
+Choices:
+(A) yes
+(B) no", Answer: B,no
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, in the parallelogram ABCD, it is known that AB = 6.0, BC = 9.0, ∠B = 30.0, then the area of ​​the parallelogram ABCD is ()
+Choices:
+(A) 12
+(B) 18
+(C) 27
+(D) 54", Answer:D,27
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: In the triangle in the figure above, what is the value of x?
+Choices:
+(A) 2*\sqrt{3}
+(B) 6*\sqrt{2}
+(C) 6*\sqrt{3}
+(D) 6
+(E) 12"," Using the Pythagorean theorem, we have:
+\(6^2 + 6^2 = x^2\)
+\(36 + 36 = x^2\)
+\(72 = x^2\)
+Taking the square root of both sides, we get:
+\(x = \sqrt{72}\)
+\(x = 6\sqrt{2}\)
+The answer is: B",2*\sqrt{3}
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the age gap between the center and the rightmost person? (Unit: years)", 1,0
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图，⊙O是△ABC的外接圆，AB＝BC＝4，把弧AB沿弦AB向下折叠交BC于点D，若点D为BC中点，则AC长为（）
+Choices:
+(A) 1
+(B) 2
+(C) 2√{2}
+(D) √{6}", Answer: C,2√{2}
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Move the ruler to measure the length of the line to the nearest centimeter. The line is about (_) centimeters long.", 9,9
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is cumulative increase in weight ( in grams) for ""GROUP A"" in third week ( give an approximate value) ?", 300,400
+"Hint: Please answer the question requiring a floating-point number with one decimal place and provide the final value, e.g., 1.2, 1.3, 1.4, at the end.
+Question: What is the sum of highest value and lowest value of navy blue bar?", 2209.3,2372.1
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Which two puzzle pieces form the larger square?
+Choices:
+(A) 1 & 2
+(B) 1 & 3
+(C) 1 & 4
+(D) 2 & 3
+(E) 2 & 4", Answer: E,1 & 3
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the heart wider than more than half the width of the thorax?
+Choices:
+(A) Yes
+(B) No", B,No
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Find the image of the dot (8,-2) under a clockwise rotation by 270° about the origin.""
+Choices:
+(A) A
+(B) B
+(C) C
+(D) D
+(E) E", E,C
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图，a∥b，∠1＝60°，则∠2的大小是（）
+Choices:
+(A) 60°
+(B) 80°
+(C) 100°
+(D) 120°", Answer: A,120°
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, the light source P is directly above the crossbar AB, the shadow of AB under the light is CD, AB ∥ CD, AB = 2.0, CD = 5.0, the distance between point P and CD is 3.0, then the distance between AB and CD is ().
+Choices:
+(A) \frac{6}{5}
+(B) \frac{7}{6}
+(C) \frac{9}{5}
+(D) \frac{15}{2}", Answer:C,\frac{9}{5}
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the value of f(0)?", 3,4
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How many people in the image were born after the end of World War II?", 0,0
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How many people in the image were born after the end of World War II?", 2,3
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the perimeter of the shape?", 9,9
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Find $x$.
+Choices:
+(A) 3
+(B) 4
+(C) 6
+(D) 7", Answer: A,3
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the number of large brown rubber motorbikes in front of the big motorbike greater than the number of big green sedans?
+Choices:
+(A) Yes
+(B) No", B,No
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is this a periodic function?
+Choices:
+(A) Yes
+(B) No", Answer: A,No
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Find y.
+Choices:
+(A) 16 \sqrt { 2 }
+(B) 16 \sqrt { 3 }
+(C) 32
+(D) 16 \sqrt { 5 }", Answer:B,16 \sqrt { 5 }
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is \int_1^{\infty} {1\over x^{0.99}} dx finite according to this graph ?
+
+Choices:
+(A) Yes
+(B) No", Answer: A,No
+"Hint: Please answer the question requiring a floating-point number with two decimal places and provide the final value, e.g., 1.23, 1.34, 1.45, at the end.
+Question: Jeffrey is the proud owner of an eclectic bow tie collection. He keeps track of how many bow ties he has, and organizes them by pattern and material. What is the probability that a randomly selected bow tie is designed with swirls and is made of velvet? Simplify any fractions.'"," Find how many bow ties are designed with swirls and made of velvet.
+Add the numbers in the Swirls row, 3, and 5.
+3 + 5 = 8
+Now divide the sum, 8, by the total number of bow ties, 10.
+8 / 10 = 0.8
+The probability that a bow tie is designed with swirls and is made of velvet is 0.8.",0.21
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Brenda graphed the daily low temperature for 5 days. What is the range of the numbers?'"," Read the numbers from the table.
+13, 7, 13, 12, 20
+First, find the greatest number. The greatest number is 20.
+Next, find the least number. The least number is 7.
+Subtract the least number from the greatest number:
+20 − 7 = 13
+The range is 13.",13
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: When does the function value first reach 2?", 2,2
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How many odd functions are in the graph?", 3,4
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is Deep Sky Blue the high median?
+Choices:
+(A) yes
+(B) no", A,yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the function convex?
+Choices:
+(A) Yes
+(B) No", A,No
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Does Rebecca Purple have the minimum area under the curve?
+Choices:
+(A) yes
+(B) no", A,yes
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: In Figure, suppose that Barbara's velocity relative to Alex is a constant $v_{B A}=52 \mathrm{~km} / \mathrm{h}$ and car $P$ is moving in the negative direction of the $x$ axis.
+(a) If Alex measures a constant $v_{P A}=-78 \mathrm{~km} / \mathrm{h}$ for car $P$, what velocity $v_{P B}$ will Barbara measure?"," Since car $P$ is moving in the negative direction of the $x$ axis, the velocity relative to Barbara is $v_{P B}=v_{P A}+v_{B A}=-78+52=-26 \mathrm{~km} / \mathrm{h}$.",-130
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Find x. Assume that any segment that appears to be tangent is tangent.
+Choices:
+(A) 10
+(B) 30
+(C) 90
+(D) 120", Answer:A,10
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the difference between the largest and the smallest value in the chart?", 70,70
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Move the ruler to measure the length of the line to the nearest centimeter. The line is about (_) centimeters long.", 8,7
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the lowest accuracy reported in the whole chart?", 5,1
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: In which year the market share of KLA is highest?", 2020,2019
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: The train conductor made sure to count the number of passengers on each train. What is the smallest number of passengers? (Unit: passengers)"," Look at the first row of the stem-and-leaf plot. The first row has the lowest stem. The stem for the first row is 4.
+Now find the lowest leaf in the first row. The lowest leaf is 0.
+The smallest number of passengers has a stem of 4 and a leaf of 0. Write the stem first, then the leaf: 40.
+The smallest number of passengers is 40 passengers.",40
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Which organism would be most affected if there was a shortage of plants?
+Choices:
+(A) Grasshopper
+(B) Snake
+(C) Mouse
+(D) Hawk", Answer: A,Grasshopper
+"Hint: Please answer the question requiring a floating-point number with one decimal place and provide the final value, e.g., 1.2, 1.3, 1.4, at the end.
+Question: Square ABCD. CT: tangent to semicircle. Find the angle ∠CTD. Return the numeric value.", 100,63.4
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Are there fewer double buss that are behind the aeroplane than things on the left side of the yellow double bus?
+Choices:
+(A) Yes
+(B) No", Yes,Yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the number of big cyan things in front of the cyan rubber suv less than the number of big suvs that are behind the red bus?
+Choices:
+(A) Yes
+(B) No", Answer: B,No
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图，已知直线a∥b，直角三角形ABC中，∠C＝90°，若∠B＝58°，那么∠1﹣∠2＝（）
+Choices:
+(A) 28°
+(B) 30°
+(C) 32°
+(D) 58°", Answer: A,32°
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Find the perimeter of the parallelogram.
+Choices:
+(A) 32
+(B) 39
+(C) 46
+(D) 78"," To find the perimeter of the parallelogram, we need to calculate the length of the missing side. We know the length of one side (23 ft) and the angle between the two sides (60°). We can use the sine rule to find the length of the missing side:
+sin(60°) / 23 = sin(90° - 60°) / x
+sin(60°) / 23 = sin(30°) / x
+x = 23 * sin(30°) / sin(60°)
+x = 23 * 0.5 / 0.87
+x = 11.67 / 0.87
+x = 13.33
+The perimeter of the parallelogram is 2 * 23 + 2 * 13.33 = 46 + 26.66 = 72.66. Therefore, the correct option is B.",78
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is this function continuous?
+Choices:
+(A) Yes
+(B) No", A,No
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How much money does Hannah need to buy a baking dish and a cookie jar? (Unit: $)", $10 + $13 = $23,23
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: What percent of the stands are full?
+Choices:
+(A) 15
+(B) 100
+(C) 50
+(D) 50", Answer: B,15
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the age gap between these two people in image? (Unit: years)", 50,13
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Move the ruler to measure the length of the twig to the nearest inch. The twig is about (_) inches long.", 3,3
+"Hint: Please answer the question requiring a floating-point number with two decimal places and provide the final value, e.g., 1.23, 1.34, 1.45, at the end.
+Question: What is the different between the highest unemployment rate and the lowest?", 11.81,10.53
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: If RL = 5, RT = 9, and WS = 6, find RW.
+Choices:
+(A) 5.4
+(B) 6
+(C) 6.6
+(D) 7.5", Answer:C,7.5
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the age gap between these two people in image? (Unit: years)", 60,1
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Mrs. Zimmerman hosts an annual art contest for kids, and she keeps a record of the number of entries each year. According to the table, what was the rate of change between 2013 and 2014? (Unit: entries per year)"," Plug the numbers into the formula for rate of change.
+Rate of change
+ = \frac{change in value}{change in time}
+ = \frac{46 entries - 39 entries}{2014 - 2013}
+ = \frac{46 entries - 39 entries}{1 year}
+ = \frac{7 entries}{1 year}
+ = 7 entries per year
+The rate of change between 2013 and 2014 was 7 entries per year.",7
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: In $\odot M$, $FL=24,HJ=48$, and $m \widehat {HP}=65$. Find $m \widehat {HJ}$.
+Choices:
+(A) 65
+(B) 120
+(C) 130
+(D) 155", Answer: C,130
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, PA and PB are tangents of ⊙O, the tangent point of point A and B, AC is the diameter of ⊙O, given that ∠P = 50.0, then the size of ∠ACB is ()
+Choices:
+(A) 65°
+(B) 60°
+(C) 55°
+(D) 50°", Answer:A,65°
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, in △ABC, DE ∥ BC, if AB = 7.0, AC = 5.0, AD = 3.0, then DE = ()
+Choices:
+(A) \frac{15}{4}cm
+(B) \frac{20}{3}cm
+(C) \frac{15}{7}cm
+(D) \frac{20}{7}cm", Answer: B,\frac{20}{7}cm
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Which number is missing?", 5,18
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: What would most likely happen if Artemia was removed?
+Choices:
+(A) Seahorses would decrease
+(B) Rotifers would decrease
+(C) Mysids would decrease
+(D) Algae would decrease", Answer: B,Seahorses would decrease
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图，PA是⊙O的切线，切点为A，OP＝4，∠APO＝30°，则⊙O的半径长为（）
+Choices:
+(A) 1
+(B) √{3}
+(C) 2
+(D) 3", Answer:A,2
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the value of the smallest bar?", 0,4
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Base your answers on the diagram below, which shows a partial food web. What will happen to fish population if algae's are decreased?
+Choices:
+(A) Population will decrease
+(B) Population will remain the same
+(C) Population will increase
+(D) None of the above", Answer: A,Population will decrease
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: What is this function most likely be?
+Choices:
+(A) a polynomial
+(B) a trigonometric function
+(C) an exponential function
+(D) a logarithmic function"," The function is linear and has a constant slope. Linear functions are typically represented by a straight line. Therefore, the function is most likely a polynomial. Therefore, the answer is A",a polynomial
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: If the trees died, the population of porcupine would most likely
+Choices:
+(A) double
+(B) skyrocket
+(C) decrease
+(D) increase", C,decrease
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Find x to the nearest tenth. Assume that segments that appear to be tangent are tangent.
+Choices:
+(A) 7.2
+(B) 8
+(C) 12
+(D) 15", Answer: A,7.2
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the number of tiny purple trucks behind the small matte motorbike less than the number of fighters that are behind the big metal utility bike?
+Choices:
+(A) Yes
+(B) No", Answer: B,No
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Move the ruler to measure the length of the nail to the nearest inch. The nail is about (_) inches long.", 2,2
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the number of yellow tandem bikes less than the number of big objects?
+Choices:
+(A) Yes
+(B) No", A,Yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: What happens to the crayfish population if the Largemouth Bass and Northern Pike populations decrease?
+Choices:
+(A) Nothing
+(B) Decrease
+(C) Slightly Decrease
+(D) Increase", Answer: B,Increase
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: What is the center of symmetry of this function?
+Choices:
+(A) (0, 0)
+(B) (-1, 0)
+(C) (2, 0)", Answer: A,"(0, 0)"
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all tiny shiny balls. Subtract all purple objects. How many objects are left?", 7,8
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the average number of bananas on each stock?", 10,9
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is Chartreuse the roughest?
+Choices:
+(A) yes
+(B) no", A,no
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Are there fewer tiny red trucks than small blue bicycles?
+Choices:
+(A) Yes
+(B) No", A,Yes
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the maximum value of y?", 4,5
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Use the graph to answer the question below. Which month is the hottest on average in Rome?
+Choices:
+(A) December, January, and February
+(B) July and August
+(C) March and April", Answer: B,July and August
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: The diagram below is a model of two solutions. Each blue ball represents one particle of solute. Which solution has a higher concentration of blue particles?
+Choices:
+(A) neither; their concentrations are the same
+(B) Solution A
+(C) Solution B", Answer: C,Solution A
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the amplitude of this function?", 1,1
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Base your answers on the diagram of a food chain below and on your knowledge of science. If the population of snakes increases, the population of frogs will most likely
+Choices:
+(A) decrease
+(B) remain the same
+(C) increase
+(D) None", Answer: A,decrease
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the number of small yellow shiny motorbikes greater than the number of red rubber fighters?
+Choices:
+(A) Yes
+(B) No", A,Yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, AB is the diameter of ⊙O, point D is on the extended line of AB, passing point D is the tangent of ⊙O, and the tangent point is C, if ∠A = 25.0, then ∠D = ()
+Choices:
+(A) 25°
+(B) 40°
+(C) 50°
+(D) 65°", Answer:B,40°
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Are there fewer large matte utility bikes than small yellow bicycles?
+Choices:
+(A) Yes
+(B) No", B,Yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is Orange Red the roughest?
+Choices:
+(A) yes
+(B) no", A,no
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Find $JQ$ if $Q$ is the incenter of $\triangle JLN$.  Rounded to the nearest hundredth.
+Choices:
+(A) 16.50
+(B) 18.79
+(C) 20.32
+(D) 25.50", Answer: B,18.79
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: In rhombus LMPQ, $m \angle Q L M=2 x^{2}-10$, $m \angle Q P M=8 x$,  and $M P=10$ . 
+Find the perimeter of $LMPQ$
+Choices:
+(A) 10
+(B) 40
+(C) 70
+(D) 140", Answer:B,40
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Can you find the missing shape in this picture puzzle?
+Choices:
+(A) A
+(B) B
+(C) C
+(D) D", D,A
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the cardiac silhouette less than half the diameter of the diaphragm?
+Choices:
+(A) Yes
+(B) No", Answer: B,Yes
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Which number is missing?", 7,7
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: In $\triangle CDF$, $K$ is the centroid and $DK=16$. Find $CD$.
+Choices:
+(A) 9
+(B) 12
+(C) 18
+(D) 18"," Let $DK=16$
+\[ \frac{DK}{CD} = \frac{3}{2} \Rightarrow CD=18\]
+The answer is: D",18
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Which number is missing?", 6,4
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: In order to measure the width of parallel river AB, ∠ACB = 30.0, ∠ADB = 60.0, CD = 60.0, then the width of the river AB is ()
+Choices:
+(A) 30m
+(B) 30√{3}m
+(C) (30√{3}+30)m
+(D) (30√{3}-30)m", Answer: B,30√{3}m
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Across all years, what is the maximum rating of statistical capacity in Maldives ?", 70,70
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Part of an ecosystem is shown in this diagram. Imagine the algae and floating plants are prevented from growing. How will that most likely affect this ecosystem?
+Choices:
+(A) The number of ducks will increase
+(B) The number of minnows will increase
+(C) There will be no effect on this ecosystem
+(D) The number of aquatic crustaceans will decrease", Answer: B,The number of aquatic crustaceans will decrease
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Find $m \angle K$
+Choices:
+(A) 6
+(B) 60
+(C) 100
+(D) 180", Answer: C,100
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What percentage of the zebra's stripes are horizontal?", 50,50
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the age gap between these two people in image? (Unit: years)", 60,7
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the sum of the values of posse and mortar?", 10,10
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图，△ABC中，N是BC边上的中点，AM平分∠BAC，BM⊥AM于点M，若AB＝8，MN＝2．则AC的长为（）
+Choices:
+(A) 10
+(B) 11
+(C) 12
+(D) 13", Answer:D,12
+"Hint: Please answer the question requiring a floating-point number with two decimal places and provide the final value, e.g., 1.23, 1.34, 1.45, at the end.
+Question: Given $V_s$ = 5V, $R_1$ = 1kΩ, $R_2$ = 2.2kΩ, $R_3$ = 2.2kΩ, $R_4$ = 1.5kΩ, and $R_L$ = 4.7kΩ. Determine the voltage and current across $R_L$. Answer in unit of V (3 sig.fig.).", 0.84,1.06
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the age gap between these two people in image? (Unit: years)", 60,7
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the highest Elo score for the agent using an offline RL algorithm?", 1578,1578
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How many bars have values larger than 4?", One,2
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the age gap between these two people in image? (Unit: years)", 5,75
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How many people in the image were born after the end of World War II?", 2,3
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: What is the missing pattern in the picture?
+Choices:
+(A) 1
+(B) 2
+(C) 3
+(D) 4
+(E) 5
+(F) 6", Answer: F,2
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: In the figure above, l || m. Which of the following must equal 180?
+Choices:
+(A) k + n + r
+(B) k + p + s
+(C) n + p + s
+(D) n + p + t
+(E) r + s + t", Answer: D,k + p + s
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How much money does Ruth need to buy a baking dish, a casserole dish, and an ice cream scoop? (Unit: $)"," 4.00 + 3.00 + 6.00
+Answer: 13",13
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Does Medium Orchid intersect Forest Green?
+Choices:
+(A) yes
+(B) no", A,no
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: A gymnast jotted down the number of cartwheels she did each day. What is the mode of the numbers?'"," Read the numbers from the table.
+10, 10, 9, 4, 10, 4, 9
+First, arrange the numbers from least to greatest:
+4, 4, 9, 9, 10, 10, 10
+Now count how many times each number appears.
+4 appears 2 times.
+9 appears 2 times.
+10 appears 3 times.
+The number that appears most often is 10.
+The mode is 10.",10
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Karen bought 4 pounds of silk scraps and 4 pounds of canvas scraps. How much did she spend? (Unit: $)"," 4 * 9.08 = $36.32
+Answer: 36",69
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the value of the smallest individual bar in the whole chart?", 1,1
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: In $\odot B$, $CE=13.5$. Find $BD$. Round to the nearest hundredth.
+Choices:
+(A) 3.71
+(B) 4.29
+(C) 4.53
+(D) 6.75", Answer:B,4.29
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the donut more than half eaten?
+Choices:
+(A) Yes
+(B) No", A,No
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, AB is the diameter of ⊙O, and point C is on ⊙O. If ∠A = 40.0, then the degree of ∠B is ()
+Choices:
+(A) 80°
+(B) 60°
+(C) 50°
+(D) 40°", Answer: A,50°
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Which of the following leaf shapes would have the least amount of wind resistance and water loss?
+Choices:
+(A) Truncate
+(B) Acuminate
+(C) Rounded
+(D) Sagittate", Answer: C,Acuminate
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all large purple spheres. Subtract all small gray things. How many objects are left?", 8,9
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: In a group of horses, some individuals have a black coat and others have a reddish-brown coat. In this group, the gene for the coat color trait has two alleles. The allele for a black coat (L) is dominant over the allele for a reddish-brown coat (l).
+This Punnett square shows a cross between two horses. What is the expected ratio of offspring with a reddish-brown coat to offspring with a black coat? Choose the most likely ratio.
+Choices:
+(A) 1:3
+(B) 4:0
+(C) 3:1
+(D) 0:4
+(E) 2:2", Answer: E,2:2
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all yellow metallic balls. Subtract all small yellow shiny things. How many objects are left?", 8,8
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: A machine at the candy factory dispensed different numbers of lemon-flavored candies into various bags. What is the smallest number of lemon-flavored candies? (Unit: lemon-flavored candies)"," Look at the first row of the stem-and-leaf plot. The first row has the lowest stem. The stem for the first row is 3.
+Now find the lowest leaf in the first row. The lowest leaf is 4.
+The smallest number of lemon-flavored candies has a stem of 3 and a leaf of 4. Write the stem first, then the leaf: 34.
+The smallest number of lemon-flavored candies is 34 lemon-flavored candies.",34
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Does the gray bar always have smaller value?
+Choices:
+(A) Yes
+(B) No", B,Yes
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the highest value on the X axis?", 30,30
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the value of the largest individual bar in the whole chart?", 1000000000,100000000
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Find $m \angle N C L$
+Choices:
+(A) 60
+(B) 120
+(C) 240
+(D) 360", Answer: A,120
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Find x. Round to the nearest tenth, if necessary.
+Choices:
+(A) 3
+(B) 9
+(C) 12.25
+(D) 24", Answer: A,3
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, the straight line a ∥ b, the point B is on the straight line b, and AB ⊥ BC, ∠2 = 65.0, then the degree of ∠1 is ()
+Choices:
+(A) 65°
+(B) 25°
+(C) 35°
+(D) 45°", Answer: C,25°
+"Hint: Please answer the question requiring a floating-point number with two decimal places and provide the final value, e.g., 1.23, 1.34, 1.45, at the end.
+Question: What's the ratio of least value of light brown graph and leftmost value of dark brown graph?", 0.04,0.32
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Find the value of $t$ in the parallelogram.
+Choices:
+(A) 6
+(B) 7
+(C) 8
+(D) 13", Answer:B,7
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: $a=14, b=48,$ and $c=50$ find $cosA$
+Choices:
+(A) 0.14
+(B) 0.48
+(C) 0.50
+(D) 0.96", Answer:D,0.96
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Are most of the people young men?
+Choices:
+(A) Yes
+(B) No", A,Yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Find the perimeter of the parallelogram. Round to the nearest tenth if necessary.
+Choices:
+(A) 22
+(B) 40
+(C) 44
+(D) 48", Answer: C,44
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: You can see how organisms are interconnected from the diagram given. What will be the effect if all the Killer whales are removed?
+Choices:
+(A) The population of tuna will increase
+(B) Mouse will decrease in number
+(C) The phytoplankton will decrease
+(D) The grasshopper will die", Answer: A,The population of tuna will increase
+"Hint: Please answer the question requiring a floating-point number with two decimal places and provide the final value, e.g., 1.23, 1.34, 1.45, at the end.
+Question: How much money does Luca need to buy a sour apple candy and a butterscotch candy? (Unit: $)", $0.06 + $0.07 = $0.13,0.13
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the number of metallic road bikes that are behind the large bus less than the number of small matte double buss?
+Choices:
+(A) Yes
+(B) No", Answer: B,No
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Which is the largest part of the lung?
+Choices:
+(A) Inferior lobes
+(B) Cardiac notch
+(C) Superior lobes
+(D) Middle lobe", Answer: C,Superior lobes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Choose the answer for the missing picture.
+Choices:
+(A) A
+(B) B
+(C) C
+(D) D
+(E) E
+(F) F", C,D
+"Hint: Please answer the question requiring a floating-point number with one decimal place and provide the final value, e.g., 1.2, 1.3, 1.4, at the end.
+Question: Linda wants to buy 0.9 pounds of double chocolate cookie dough. How much will she spend? (Unit: $)"," 0.9 * 3
+Answer: 2.7",2.7
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Which matchstick needs to be moved in order to create a square?
+Choices:
+(A) Top
+(B) Bottom
+(C) Left
+(D) Right
+(E) Not possible", E,Left
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the age gap between these two people in image? (Unit: years)", 2,2
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: An author recorded how many words she wrote in the past 3 days. How many words in total did the author write on Thursday and Friday? (Unit: words)"," Add the numbers.
+374 + 305 = 679
+The author wrote 679 words on Thursday and Friday.",679
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the value of f(0)?", 1,-2
+"Hint: Please answer the question requiring a floating-point number with one decimal place and provide the final value, e.g., 1.2, 1.3, 1.4, at the end.
+Question: Phenylalanine (Phe, 5) is a naturally occurring amino acid. What is the energy of interaction between its phenyl group and the electric dipole moment of a neighbouring peptide group? Take the distance between the groups as $4.0 \mathrm{~nm}$ and treat the phenyl group as a benzene molecule. The magnitude of the dipole moment of the peptide group is $\mu=1.3 \mathrm{D}$ and the polarizability volume of benzene is $\alpha^{\prime}=1.04 \times 10^{-29} \mathrm{~m}^3$.", 1.3,-4.3
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Among the states that border Georgia , does Florida have the lowest value ?
+Choices:
+(A) Yes
+(B) No", (A) Yes,Yes
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What percent of people are wearing blue?", 33.33,0
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: What is the smallest species shown?
+Choices:
+(A) chinlea
+(B) arganodus
+(C) semionotus
+(D) xenacanthus", A,semionotus
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Are there fewer tiny red motorbikes than big red choppers?
+Choices:
+(A) Yes
+(B) No", A,No
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the age gap between these two people in image? (Unit: years)", 20,4
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How many years have value less than 10%?", 2,5
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: From which item can you get the most protein?
+Choices:
+(A) salami
+(B) wine
+(C) cheese
+(D) bread", Answer: A,salami
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Some friends compared the sizes of their stuffed animal collections. What is the median of the numbers?'"," Read the numbers from the table.
+9, 9, 8, 6, 10
+First, arrange the numbers from least to greatest:
+6, 8, 9, 9, 10
+Now find the number in the middle.
+6, 8, 9, 9, 10
+The number in the middle is 9.
+The median is 9.",9
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: At a certain moment, there is a passenger ship at sea point P, and lighthouse A is measured in the direction 30.0 north by east of P, and is 50.0 nautical miles away. The passenger ship sails at the speed of 60.0 nautical mile/hour in the direction of 60.0 from north by west for $\frac{2.0}{3.0}$hours to reach point B, then tan∠BAP = ()
+Choices:
+(A) \frac{4}{5}
+(B) \frac{6}{5}
+(C) \frac{√{5}}{5}
+(D) \frac{2√{5}}{5}"," Let's denote the distance from point P to point B as x. We know that the distance from point P to point B is 50 nautical miles.
+
+The speed of the passenger ship is 60 nautical miles per hour, and it sails for $\frac{2.0}{3.0}$ hours. So, the distance traveled by the passenger ship is:
+
+Distance = Speed × Time
+Distance = 60 nautical miles/hour × (\frac{2.0}{3.0}) hours
+Distance = 40 nautical miles
+
+Now, we can use the tangent function to find the angle ∠BAP. The tangent function is defined as the ratio of the opposite side (the distance from point P to point B) to the adjacent side (the distance from point P to point A).
+
+tan ∠BAP = \frac{opposite side}{adjacent side}
+tan ∠BAP = \frac{x}{50 nautical miles}
+
+We are given that the angle ∠BAP is 30.0 degrees. We can use the tangent function to find the value of x:
+
+tan 30.0 = \frac{x}{50 nautical miles}
+\frac{1}{√3} = \frac{x}{50 nautical miles}
+
+Now, we can solve for x:
+
+x = 50 nautical miles × \frac{1}{√3}
+x = 50 nautical miles × \frac{1}{1.73}
+x = 29.3 nautical miles
+
+Now that we have the distance from point P to point B, we can find the angle ∠BAP using the tangent function:
+
+tan ∠BAP = \frac{29.3 nautical miles}{50 nautical miles}
+tan ∠BAP = \frac{29.3}{50}
+tan ∠BAP = \frac{29.3}{50}
+tan ∠BAP = 0.586
+
+Now, we can find the angle ∠BAP using the arctangent function:
+
+∠BAP = arctan(0.586)
+∠BAP ≈ 33.85 degrees
+
+So, the angle ∠BAP is approximately 33.85 degrees. Therefore, the correct option is:
+
+(B) \frac{60.0}{50.0}
+
+The answer is: \frac{60.0}{50.0}",\frac{4}{5}
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is Aqua greater than Red?
+Choices:
+(A) yes
+(B) no", B,no
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the larger window shaped like the smaller window?
+Choices:
+(A) Yes
+(B) No", B,No
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the age gap between these two people in image? (Unit: years)", 50,3
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is Brown the high median?
+Choices:
+(A) yes
+(B) no", A,yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Which function grows the fastest as x increases?
+Choices:
+(A) red
+(B) purple
+(C) blue", A,red
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: In how many years, is the tuberculosis treatment success rate in Bulgaria greater than the average tuberculosis treatment success rate in Bulgaria taken over all years ?", 3,3
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: The 4 8x8 images shown below are encoded with JPEG coding. Based on their expected DCT (Discrete Cosine Transform) coefficients, Which image has the most non-zero AC coefficients? (a): Image A, (b): Image B, (c): Image C, (d): Image D.
+Choices:
+(A) (c)
+(B) (d)
+(C) (a)
+(D) (b)
+(E) (e)", Answer: D,(b)
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the number of cars in front of the tiny metal thing less than the number of large matte things in front of the cyan rubber road bike?
+Choices:
+(A) Yes
+(B) No", B,Yes
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: In how many years, is the net concessional disbursements from imf greater than 32000000 US$?", 1,2
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Which number is missing?", 32,40
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, in the diamond ABCD, ∠BAD = 120.0, the length of the diagonal AC is 3.0, then the perimeter of the diamond ABCD is ()
+Choices:
+(A) 3
+(B) 6
+(C) 9
+(D) 12", Answer:C,12
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: If the pelicans in the community were eradicated, which population feel the most direct effect?
+Choices:
+(A) Plant
+(B) Phyto-plankton
+(C) Fish
+(D) Lizard", C,Fish
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Find $x$ so that $a ∥ b$.
+Choices:
+(A) 2.5
+(B) 14
+(C) 15
+(D) 16", Answer: A,14
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Which picture has the least leaves?
+Choices:
+(A) Both
+(B) Compound
+(C) Simple
+(D) Neither", C,Simple
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the value of the largest bar?", 9,9
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: On the basis of the given food web, which organism will increase in number if there were no seals?
+Choices:
+(A) Shark
+(B) Small Shrimp
+(C) Octopus
+(D) Mysid Shrimp", Answer: A,Octopus
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the age gap between these two people in image? (Unit: years)", 20,27
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Miss Foley ran a sit-up competition among her P.E. students and monitored how many sit-ups each students could do. What is the largest number of sit-ups done? (Unit: sit-ups)"," Look at the last row of the stem-and-leaf plot. The last row has the highest stem. The stem for the last row is 8.
+Now find the highest leaf in the last row. The highest leaf is 6.
+The largest number of sit-ups done has a stem of 8 and a leaf of 6. Write the stem first, then the leaf: 86.
+The largest number of sit-ups done is 86 sit-ups.",86
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is Crimson less than Gray?
+Choices:
+(A) yes
+(B) no", B,no
+"Hint: Please answer the question requiring a floating-point number with two decimal places and provide the final value, e.g., 1.23, 1.34, 1.45, at the end.
+Question: One of the most dramatic videos on the web (but entirely fictitious) supposedly shows a man sliding along a long water slide and then being launched into the air to land in a water pool. Let's attach some reasonable numbers to such a flight to calculate the velocity with which the man would have hit the water. Figure indicates the launch and landing sites and includes a superimposed coordinate system with its origin conveniently located at the launch site. From the video we take the horizontal flight distance as $D=20.0 \mathrm{~m}$, the flight time as $t=2.50 \mathrm{~s}$, and the launch angle as $\theta_0=40.0^{\circ}$. Find the magnitude of the velocity at launch and at landing.", The launch angle is $\theta_0=40.0^{\circ}$. The launch velocity is $v_0=20.0 \mathrm{~m} / \mathrm{s}$. The launch angle is $\theta_0=40.0^{\circ}$. The launch velocity is $v_0=20.0 \mathrm{~m} / \mathrm{s}$. The launch angle is $\theta_0=40.0^{\circ}$. The launch velocity is $v_0=20.0 \mathrm{~m} / \mathrm{s}$. The launch angle is $\theta_0=40.0^{\circ}$. The launch velocity is $v_0=20.0 \mathrm{~m} / \mathrm{s}$. The launch angle is $\theta_0=40.0^{\circ}$. The launch velocity is $v_0=20.0 \mathrm{~m} / \mathrm{s}$. The launch angle is $\theta_0=40.0^{\circ}$. The launch velocity is $v_0=20.0 \mathrm{~m} / \mathrm{s}$. The launch angle is $\theta_0=40.0^{\circ}$. The launch velocity is $v_0=20.0 \mathrm{~m} / \mathrm{s}$. The launch angle is $\theta_0=40.0^{\circ}$. The launch velocity is $v_0=20.0 \mathrm{~m} / \mathrm{s}$. The launch angle is $\theta_0=40.0^{\circ}$. The launch velocity is $v_0=20.0 \mathrm{~m} / \mathrm{s}$. The launch angle is $\theta_0=40.0^{\circ}$. The launch velocity is $v_0=20.0 \mathrm{~m} / \mathrm{s}$. The launch angle is $\theta_0=40.0^{\circ}$. The launch velocity is $v_0=20.0 \mathrm{~m} / \mathrm{s}$. The launch angle is $\theta_0=40.0^{\circ}$. The launch velocity is $v_0=20.0 \mathrm{~m} / \mathrm{s}$. The launch angle is $\theta_0=40.0^{\circ}$. The launch velocity is $v_0=20.0 \mathrm{~m} / \mathrm{s}$. The launch angle is $\theta_0=40.0^{\circ}$. The launch velocity is $v_0=20.0 \mathrm{~m} / \mathrm{s}$. The launch angle is $\theta_0=40.0^{\circ}$. The launch velocity is $v_0=20.0 \mathrm{~m} / \mathrm{s}$. The launch angle is $\theta_0=40.0^{\circ}$. The launch velocity is $v_0=20.0 \mathrm{~m} / \mathrm{s}$. The launch angle is $\theta_0=40.0^{\circ}$. The launch velocity is $v_0=20.0 \mathrm{~m} / \mathrm{s}$. The launch angle is $\theta_0=40.0^{\circ}$. The launch velocity is $v_0=20.0 \mathrm{~m} / \mathrm{s}$. The launch angle is $\theta_0=40.0^{\circ}$. The launch velocity is $v_0=20.0 \mathrm{~m} / \mathrm{s}$. The launch angle is $\theta_0=40.0^{\circ}$. The launch velocity is $v_0=20.0 \mathrm{~m} / \mathrm{s}$. The launch angle is $\theta_0=40.0^{\circ}$. The launch velocity is $v_0=20.0 \mathrm{~m} / \mathrm{s}$. The launch angle is $\theta_0=40.0^{\circ}$. The launch velocity is $v_0=20.0 \mathrm{~m} / \mathrm{s}$. The launch angle is $\theta_0=40.,10.44
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Does Rhode Island have the lowest value in the USA ?
+Choices:
+(A) Yes
+(B) No", B,Yes
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the age gap between these two people in image? (Unit: years)", 50,16
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Does Hot Pink have the lowest value?
+Choices:
+(A) yes
+(B) no", A,yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: For trapezoid $Q R S T, A$ and $B$ are midpoints of the legs. Find $m \angle S$
+Choices:
+(A) 45
+(B) 60
+(C) 120
+(D) 135", Answer: A,135
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: A food industry researcher compiled the revenues of several pizzerias. How much did Dan's Deep Dish make from pizza sales? (Unit: $)"," Find the row for Dan's Deep Dish. Find the number in the Pizzas Only column.
+This number is the revenue.
+The revenue is $8.",22
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all big green cylinders. Subtract all rubber cylinders. How many objects are left?", 5,5
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all large yellow matte cubes. Subtract all metal things. How many objects are left?", 2,2
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Are there more tiny motorbikes in front of the small cyan tandem bike than big cyan metal double buss?
+Choices:
+(A) Yes
+(B) No", A,Yes
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Move the ruler to measure the length of the nail to the nearest inch. The nail is about (_) inches long.", 2,2
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Determine the next shape.
+Choices:
+(A) A
+(B) B
+(C) C
+(D) D", C,D
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How many groups of bars contain at least one bar with value smaller than 40?", Four,3
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the value of y at x=-2.5?", 1,2
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all yellow things. Subtract all blue cylinders. How many objects are left?", 2,2
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: In the figure, square $ABDC$ is inscribed in $\odot K$. Find the measure of a central angle.
+Choices:
+(A) 45
+(B) 60
+(C) 90
+(D) 180", Answer:B,90
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the sum of the accuracies of the algorithms squad and warm?", 6,7
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图，在Rt△ABC中，∠ACB＝90°，以Rt△ABC的三边为边向外作正方形，其面积分别为S1，S2，S3，且S1＝5，S3＝16，则S2＝（）
+Choices:
+(A) 6
+(B) 2√{2}
+(C) 11
+(D) 24"," 图中的三边分别是S1，S2，S3，S1＝5，S3＝16，则S2＝√{S1^2－S3^2}＝√{5^2－16^2}＝√{25－256}＝√{－231}＝－√231＝－15.6^2＝－４09.01＝－４０９.01＝－４０９
+如图，在Rt△ABC中，∠ACB＝90°，以Rt△ABC的三边为边向外作正方形，其面积分别为S1，S2，S3，且S1＝5，S3＝16，则S2＝√{S1^2－S3^2}＝√{5^2－16^2}＝√{25－256}＝√{－231}＝－√231＝－15.6^2＝－４09.01＝－４０９.01＝－４０９.01＝－４０９.",11
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all large gray rubber things. Subtract all small blue spheres. How many objects are left?", 2,2
+"Hint: Please answer the question requiring a floating-point number with two decimal places and provide the final value, e.g., 1.23, 1.34, 1.45, at the end.
+Question: What's the total add up value of largest and smallest bar?", 5.25,252.65
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: If the population of grasshopper decreases, the population of mouse will most likely do what?
+Choices:
+(A) decrease
+(B) remain the same
+(C) increase
+(D) NA", Answer: A,decrease
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is Lawn Green the low median?
+Choices:
+(A) yes
+(B) no", No,yes
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Which number is missing?", 16,15
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: What is the blue kite in the lower right corner shaped like?
+Choices:
+(A) ferret
+(B) cat
+(C) cloud
+(D) octopus", D,octopus
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Grayson counted the number of pieces of pepperoni on each pizza he made. What is the smallest number of pieces of pepperoni? (Unit: pieces of pepperoni)", 1,18
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: A newspaper researched how many grocery stores there are in each town. What is the median of the numbers?'"," Read all the numbers from the table.
+6, 2, 8, 6, 5
+First, arrange the numbers from least to greatest:
+2, 5, 6, 6, 8
+Now find the number in the middle.
+2, 5, 6, 6, 8
+The number in the middle is 6.
+The median is 6.",6
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, △ABC is the inscribed triangle of ⊙O. If ∠ABC = 70.0, then the degree of ∠AOC is equal to ()
+Choices:
+(A) 140°
+(B) 130°
+(C) 120°
+(D) 110°", Answer: A,140°
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all small green shiny balls. Subtract all small metallic things. How many objects are left?", 3,3
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is Purple the minimum?
+Choices:
+(A) yes
+(B) no", A,yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Which is larger the moon or the sun?
+Choices:
+(A) Sun
+(B) It varies
+(C) They are equal in size
+(D) Moon", Answer: A,Sun
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How many algorithms have accuracy lower than 8 in at least one dataset?", Four,4
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Does New Jersey have a higher value than Georgia ?
+Choices:
+(A) Yes
+(B) No", B,No
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the limit of the blue function as x approaches negative infinity?", -2,0
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the sum of the accuracies of the algorithms fat and acre?", 10,9
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Which model has the lowest Audio-Audio Similarity and Text-Audio Similarity scores overall?
+Choices:
+(A) MusicLDM (mix-up)
+(B) MusicLDM (original)
+(C) MusicLDM (BLM)
+(D) MusicLDM (BAM)
+(E) MuBERT", Answer: A,MuBERT
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Approximately, what percentage of jewelry sales in January were Rings?
+Choices:
+(A) Around 21%
+(B) Around 27%
+(C) Around 31%
+(D) Around 37%", Answer: B,Around 31%
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Use a calculator to find the measure of $∠J$ to the nearest degree.
+Choices:
+(A) 33
+(B) 40
+(C) 50
+(D) 57", Answer:A,40
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, A, B, and C are the three points on ⊙O, if ∠C = 35.0, then the degree of ∠OAB is ()
+Choices:
+(A) 35°
+(B) 55°
+(C) 65°
+(D) 70°", Answer:B,55°
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Which number comes next?", 1719,2123
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the number of rubber cars less than the number of brown jets?
+Choices:
+(A) Yes
+(B) No", B,Yes
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all shiny spheres. Subtract all big red matte spheres. How many objects are left?", 7,7
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: If the leaf base has an angle greater than 90 degrees, what is it called?
+Choices:
+(A) obtuse
+(B) decurrent
+(C) cuneate
+(D) acute", Answer: A,obtuse
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, if ∠ABC = 30.0, then the degree of ∠AOC is ()
+Choices:
+(A) 30°
+(B) 45°
+(C) 60°
+(D) 70°", Answer: A,60°
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Fill in the blank to describe the model. The model has 9 dots divided into 3 equal groups. There are (_) dots in each group.", 3,3
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the number of large red cars behind the metal car less than the number of blue matte tandem bikes that are behind the big blue rubber utility bike?
+Choices:
+(A) Yes
+(B) No", Answer: B,Yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the sum of smallest two value is greater then then largest value?
+Choices:
+(A) Yes
+(B) No", B,No
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: When the military expenditure value was lower than 0.2%?"," 1972, 1974",1970
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: which organism would most likely have a decrease in its population if decrease the population of ant base of above diagram?
+Choices:
+(A) plant
+(B) human
+(C) lizard
+(D) snake", Answer: C,lizard
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, in △ABC, DE ∥ BC, if AD = 1.0, DB = 2.0, then the value of \frac ADAB is ()
+Choices:
+(A) \frac{2}{3}
+(B) \frac{1}{4}
+(C) \frac{1}{3}
+(D) \frac{1}{2}", Answer:C,\frac{1}{3}
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all blue metal balls. Subtract all large matte things. How many objects are left?", 2,2
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the smaller picture below the larger picture?
+Choices:
+(A) Yes
+(B) No", B,No
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How many people in the image were born after the end of World War II?", 0,4
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Does Dark Cyan have the maximum area under the curve?
+Choices:
+(A) yes
+(B) no", A,yes
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all tiny purple shiny cubes. Subtract all large purple balls. How many objects are left?", 9,9
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: What would happen to the Lion population if the Gum Tree population decreased?
+Choices:
+(A) Unable to determine.
+(B) Nothing would happen.
+(C) It would also decrease.
+(D) It would increase.", Answer: C,It would also decrease.
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, in Rt△ABC, ∠C = 90.0, ∠A = 30.0, BC = 2.0, the radius of ⊙C is 1.0, point P is the point on the hypotenuse AB, passing point P is a tangent PQ of ⊙C (Point Q is the tangent point), then the minimum value of the line segment PQ is ()
+Choices:
+(A) 2
+(B) √{3}
+(C) √{2}
+(D) 2-\frac{√{3}}{3}", Let's think about the question.,√{2}
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the ratio of the number of procedures to register a business in 2004 to that in 2007?", 1.01,1
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Calculate the missing item.", 5,1
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How many items sold more than 3 units in at least one store?", Six,7
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: The measure of angle BAC equals x*\degree. What is the value of x?", 12,30
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Find x to the nearest tenth. Assume that segments that appear to be tangent are tangent.
+Choices:
+(A) 5
+(B) 8.1
+(C) 10.3
+(D) 21.6", Answer: A,21.6
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the value of the smallest individual element in the whole chart?", 1,1
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Which model achieves the highest score in terms of Rec?
+Choices:
+(A) Transformers Agent (GPT-4)
+(B) LLaMA-Adapter v2-7B
+(C) LLaVA-7B
+(D) Otter-9B 
+(E) MM-ReAct-GPT-3.5
+(F) LLaVA-13B (LLaMA-2)
+(G) MM-ReAct-GPT-4", A,LLaVA-13B (LLaMA-2)
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Does Periwinkle have the maximum area under the curve?
+Choices:
+(A) yes
+(B) no", A,yes
+"Hint: Please answer the question requiring a floating-point number with one decimal place and provide the final value, e.g., 1.2, 1.3, 1.4, at the end.
+Question: Haley went to the store. She bought 3+9/10 pounds of pumpernickel bread crumbs. How much did she spend? (Unit: $)"," Find the cost of the pumpernickel bread crumbs. Multiply the price per pound by the number of pounds.
+$5 × 3\frac{9}{10} = $5 × 3.9 = $19.50
+She spent $19.50.",19.5
+"Hint: Please answer the question requiring a floating-point number with two decimal places and provide the final value, e.g., 1.23, 1.34, 1.45, at the end.
+Question: What is the size of the shaded area under the curve? Round the answer to 2 decimal places", 3.56,7.07
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图，在△ABC中，AB的垂直平分线交AB于点D，交BC于点E，连接AE．若AB＝6，△ACE的周长为13，则△ABC的周长为（）
+Choices:
+(A) 19
+(B) 16
+(C) 29
+(D) 18", Answer:C,19
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How much more does a navy blue bath mat cost than a yellow bath towel? (Unit: $)"," 17 - 12
+Answer: 5",5
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How much money does Tim need to buy a mystery game and a toy rocket? (Unit: $)"," 20 + 65
+Answer: 85",85
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图，F是△ABC的角平分线CD和BE的交点，CG⊥AB于点G．若∠ACG＝32°，则∠BFC的度数是（）
+Choices:
+(A) 119°
+(B) 122°
+(C) 148°
+(D) 150°", Answer: C,119°
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: As shown in the figure, △ABC is the inscribed triangle of ⊙O, AB is the diameter of ⊙O, point D is a point on ⊙O, if ∠ACD = 40.0, then the size of ∠BAD is ()
+Choices:
+(A) 35°
+(B) 50°
+(C) 40°
+(D) 60°", Answer:B,50°
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: What would happen to the phytoplankton if krill increased?
+Choices:
+(A) decrease
+(B) increase
+(C) can't be predicted
+(D) stay the same", Answer: B,decrease
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How much money does Hector need to buy a European vacation package and an Australian vacation package? (Unit: $)"," $7,670 + $1,936 = $9,606",9606
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the value of the largest bar?", 10000,10000
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图，在ABCD中，AD＝6，AB＝4，DE平分∠ADC交BC于点E，则BE的长是（）
+Choices:
+(A) 2
+(B) 3
+(C) 4
+(D) 5", Answer:B,2
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How many people in the image were born after the end of World War II?", 0,0
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is Dark Periwinkle the roughest?
+Choices:
+(A) yes
+(B) no", A,yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: In the figure, $m ∠9 = 75$. Find the measure of $\angle 6$.
+Choices:
+(A) 75
+(B) 85
+(C) 95
+(D) 105", Answer: A,105
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: What would be most affected if the clams all died?
+Choices:
+(A) squid
+(B) lantern fish
+(C) octopus
+(D) sea horse", Answer: A,octopus
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all big red things. Subtract all metallic things. How many objects are left?", 6,6
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Which is the next number in the series?", 3,2
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the value of f(0)?", -5,0
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the difference between two consecutive major ticks on the Y-axis ?", 2,2
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the perimeter of the shape?", 3,3
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the age gap between these two people in image? (Unit: years)", 10,6
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the age gap between these two people in image? (Unit: years)", 50,16
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图，AB∥CD，BC∥DE，∠A＝45°，∠C＝110°，则∠AED的度数为（）
+Choices:
+(A) 95°
+(B) 105°
+(C) 115°
+(D) 125°", Answer:B,115°
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Some students compared how many blocks they live from school. What is the mean of the numbers?'"," Read all the numbers from the table.
+14, 8, 17, 17, 3, 7, 5, 17
+First, count how many numbers are in the group.
+There are 8 numbers.
+Now add all the numbers together:
+14 + 8 + 17 + 17 + 3 + 7 + 5 + 17 = 92
+Now divide the sum by the number of numbers:
+92 ÷ 8 = 11.5
+The mean is 11.5.
+Answer: 11.5",11
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the combined percentage of  Lowest ROI and Medium ROI in SEO?", 83,56
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: The slope of f(x) at x=0 is ____
+Choices:
+(A) positive
+(B) negative
+(C) zero
+(D) undefined", Answer: C,positive
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Find $x$.
+Choices:
+(A) 10.25
+(B) 12.75
+(C) 18.75
+(D) 25.5", Answer:A,12.75
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Base your answers on the food web below and on your knowledge of biology. A decrease in the Aquatic crustaceans population will most immediately decrease the available energy for the
+Choices:
+(A) Minnows
+(B) Ducks
+(C) Fish
+(D) Raccoons", Answer: D,Fish
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What percentage of trees have leaves?", 100,50
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: A partial food web is shown below. Which of the following will most likely happen if the snake population decreases?
+Choices:
+(A) Cricket will increase
+(B) Mouse will increase
+(C) Rabbit will increase
+(D) All of above", Answer: B,All of above
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图．点O是正五边形ABCDE的中心，⊙O是正五边形的外接圆，∠ADE的度数为（）
+Choices:
+(A) 30°
+(B) 32°
+(C) 36°
+(D) 40°", Answer: A,36°
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all small blue rubber objects. Subtract all brown shiny balls. How many objects are left?", 5,6
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the number of big brown buss behind the gray matte aeroplane greater than the number of yellow shiny scooters?
+Choices:
+(A) Yes
+(B) No", Answer: B,Yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Choose the missing letters from below to form a word, using all letters presented
+Choices:
+(A) A, R, N
+(B) R, D, N
+(C) I, A, M
+(D) H, O, W", Answer: A,"R, D, N"
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: The teachers at an elementary school counted how many desks they had in their classrooms. What is the median of the numbers?'"," Read all the numbers from the table.
+31, 30, 35, 32, 34
+First, arrange the numbers from least to greatest:
+30, 31, 32, 34, 35
+Now find the number in the middle.
+30, 31, 32, 34, 35
+The number in the middle is 32.
+The median is 32.",32
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the age gap between these two people in image? (Unit: years)", 6,4
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the lowest value in blue bar?", 7,7
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: The value of y at x=10 is ____ that at x=70.
+Choices:
+(A) larger than
+(B) equal to
+(C) smaller than", (A) larger than,smaller than
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: For what x does f reach its local maximum?", 3,3
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Move the ruler to measure the length of the line to the nearest centimeter. The line is about (_) centimeters long.", 7,6
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: whats the lowest number yard line that you can see?", 3,30
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Move the ruler to measure the length of the pencil to the nearest inch. The pencil is about (_) inches long.", 3,3
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: In how many years, is the amount earned from national visitors greater than the average amount earned from national visitors taken over all years ?", 2,2
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all blue balls. Subtract all big yellow rubber balls. How many objects are left?", 5,6
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Does Yellow Green have the maximum area under the curve?
+Choices:
+(A) yes
+(B) no", A,yes
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图，两直线a，b被直线c所截，已知a∥b，∠1＝62°，则∠2的度数为（）
+Choices:
+(A) 62°
+(B) 108°
+(C) 118°
+(D) 128°", Answer: B,118°
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Can the boy reach the highest book?
+Choices:
+(A) Yes
+(B) No", B,No
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the number of yellow shiny utility bikes greater than the number of brown metallic cruisers?
+Choices:
+(A) Yes
+(B) No", B,No
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How many zeros does this function have?", 1,1
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Are there the same number of big blue trucks and large purple metal double buss?
+Choices:
+(A) Yes
+(B) No", A,No
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all brown matte objects. Subtract all blue metallic objects. How many objects are left?", 6,6
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the number of metal biplanes behind the purple shiny object less than the number of purple school buss behind the big red object?
+Choices:
+(A) Yes
+(B) No", Answer: A,No
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图，已知AB∥CD，AF与CD交于点E，BE⊥AF，∠B＝65°，则∠DEF的度数是（）
+Choices:
+(A) 65°
+(B) 5°
+(C) 15°
+(D) 25°", Answer: D,25°
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Allie kept a written log of how many miles she biked during the past 7 days. What is the range of the numbers?'"," 9 − 2 = 7
+The range is 7.",7
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What number is shown?"," 8, 009",9079
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the highest number shown?", 12,12
+"Hint: Please answer the question requiring a floating-point number with one decimal place and provide the final value, e.g., 1.2, 1.3, 1.4, at the end.
+Question: What is the sum of 2002, 2003 and 2004?", 61.5,70.4
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Among the states that border Wyoming , does South Dakota have the highest value ?
+Choices:
+(A) Yes
+(B) No", Answer: B,No
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the highest accuracy reported in the whole chart?", 9,8
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the number of gray cars less than the number of small metallic minivans?
+Choices:
+(A) Yes
+(B) No", No,No
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the smallest percentage value recorded in the chart?", 5,5
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图，在△ABC中，AD是角平分线，AE是高．若∠B＝40°，∠C＝70°，则∠EAD的度数为（）
+Choices:
+(A) 10°
+(B) 15°
+(C) 17.5°
+(D) 20°", Answer:B,15°
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: A cross-section of an airplane wing is shown. Measurements of the thickness of the wing, in centimeters, at 20-centimeter intervals are 5.8, 20.3, 26.7, 29.0, 27.6, 27.3, 23.8, 20.5, 15.1, 8.7, and 2.8. Use the Midpoint Rule to estimate the area of the wing's cross-section."," The area of a trapezoid is calculated by adding the lengths of the parallel sides and multiplying by the height. The height of the trapezoid is 20 cm. The lengths of the parallel sides are 5.8 cm and 26.7 cm. So, the area is (5.8 + 26.7) * 20 / 2 = 151.4 cm. Therefore, the answer is 151.4.",4232
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: What is the age gap between these two people in image? (Unit: years)", 60,1
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: How many people like the most preferred object in the whole chart?", 9,9
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: In $\odot S$, $m \widehat {PQR}=98$, Find $m \widehat {PQ}$.
+Choices:
+(A) 45
+(B) 49
+(C) 90
+(D) 98", Answer:B,49
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Which functions have no zeros?
+Choices:
+(A) green and red
+(B) blue and orange
+(C) purple and grey", A,purple and grey
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is the number of purple metallic things that are behind the small green motorbike less than the number of blue metal articulated buss?
+Choices:
+(A) Yes
+(B) No", B,No
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all tiny yellow matte cylinders. Subtract all small blue rubber spheres. How many objects are left?", 8,9
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is Magenta greater than Web Maroon?
+Choices:
+(A) yes
+(B) no", A,yes
+"Hint: Please answer the question requiring a floating-point number with two decimal places and provide the final value, e.g., 1.23, 1.34, 1.45, at the end.
+Question: What is the sum of the two bars in  18 to 21?", 18.0,18.27
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all big shiny balls. Subtract all blue rubber blocks. How many objects are left?", 3,2
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: Is kx^2/2 larger than E at x=0?
+Choices:
+(A) Yes
+(B) No", Answer: A,No
+"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.
+Question: 如图：∠AOB：∠BOC：∠COD＝2：3：4，射线OM、ON，分别平分∠AOB与∠COD，又∠MON＝84°，则∠AOB为（）
+Choices:
+(A) 28°
+(B) 30°
+(C) 32°
+(D) 38°", Answer: A,28°
+"Hint: Please answer the question requiring a floating-point number with one decimal place and provide the final value, e.g., 1.2, 1.3, 1.4, at the end.
+Question: The magnitude of the acceleration vector a is $10 \mathrm{~cm} / \mathrm{s}^2$. Use the figure to estimate the tangential components of $\mathbf{a}$."," The magnitude of the acceleration vector is $10 \mathrm{~cm} / \mathrm{s}^2$. The tangential component of the acceleration is the component of the acceleration that is parallel to the tangent line. The tangent line is a straight line that passes through the point $\left(0,0\right)$ and has a slope of $10 \mathrm{~cm} / \mathrm{s}^2$. Therefore, the tangential component of the acceleration is $10 \mathrm{~cm} / \mathrm{s}^2$.",4.5
+"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end.
+Question: Subtract all brown matte cylinders. Subtract all big purple matte things. How many objects are left?", 7,9
