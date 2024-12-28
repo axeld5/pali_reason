@@ -3,7 +3,7 @@ import json
 from PIL import Image
 from datasets import Dataset
 from transformers import PaliGemmaProcessor, PaliGemmaForConditionalGeneration, TrainingArguments, Trainer, BitsAndBytesConfig
-from transformers import AutoModelForVision2Seq, AutoProcessor
+from transformers import Idefics3ForConditionalGeneration, AutoProcessor
 import torch
 from peft import get_peft_model, LoraConfig
 from dotenv import load_dotenv
@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 device = "cuda"
-model = AutoModelForVision2Seq.from_pretrained(
+model = Idefics3ForConditionalGeneration.from_pretrained(
     "HuggingFaceTB/SmolVLM-Instruct",
     torch_dtype=torch.bfloat16,
     _attn_implementation="flash_attention_2" if device == "cuda" else "eager",
