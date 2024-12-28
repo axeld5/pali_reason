@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 model_id = "HuggingFaceTB/SmolVLM-Instruct"
 processor = AutoProcessor.from_pretrained(model_id)
-thinking_model_id = "axel-darmouni/smolvlm-instruct-thinking"
+thinking_model_id = "axel-darmouni/smolvlm-instruct-thinking-v2"
 model = Idefics3ForConditionalGeneration.from_pretrained(
     thinking_model_id,
     device_map="auto",
@@ -99,4 +99,4 @@ for i in range(351, len(dataset["testmini"])):
     result_list.append(output)
     true_answers.append(dataset["testmini"][i]["answer"])
 df = pd.DataFrame({"prompt": prompts, "result": result_list, "true_answer": true_answers})
-df.to_csv("outputs/results_finetuned_smol.csv", index=False)
+df.to_csv("outputs/results_finetuned_smol_v2.csv", index=False)
