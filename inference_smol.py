@@ -56,7 +56,7 @@ def generate_text_from_sample(model, processor, sample, max_new_tokens=1024, dev
     )
 
     image_inputs = []
-    image = Image.open(sample[1]['content'][0]['image'])
+    image = sample[1]['content'][0]['image']
     if image.mode != 'RGB':
         image = image.convert('RGB')
     image_inputs.append([image])
