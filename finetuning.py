@@ -17,7 +17,7 @@ lora_config = LoraConfig(
 )
 
 device = "cuda"
-model = PaliGemmaForConditionalGeneration.from_pretrained(model_id, device_map="auto", torch_dtype=torch.bfloat16, attn_implementation="flash_attention_2").to(device) #quantization_config=bnb_config)
+model = PaliGemmaForConditionalGeneration.from_pretrained(model_id, device_map="auto", torch_dtype=torch.bfloat16, attn_implementation="eager").to(device) #quantization_config=bnb_config)
 model = get_peft_model(model, lora_config)
 model.print_trainable_parameters()
 processor = PaliGemmaProcessor.from_pretrained(model_id)
