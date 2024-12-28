@@ -4,6 +4,8 @@ from transformers import Idefics3ForConditionalGeneration, AutoProcessor
 from dotenv import load_dotenv
 from datasets import Dataset
 from PIL import Image
+from peft import LoraConfig, get_peft_model
+from trl import SFTConfig
 
 load_dotenv()
 model_id = "HuggingFaceTB/SmolVLM-Instruct"
@@ -95,4 +97,42 @@ def generate_text_from_sample(model, processor, sample, max_new_tokens=1024, dev
 
     return output_text[0]
 
-output = generate_text_from_sample(model, processor, train_dataset[1])
+# Configure LoRA
+peft_config = LoraConfig(
+    r=8,
+    lora_alpha=8,
+    lora_dropout=0.1,
+    target_modules=['down_proj','o_proj','k_proj','q_proj','gate_proj','up_proj','v_proj'],
+    use_dora=True,
+    init_lora_weights="gaussian"
+)
+
+# Apply PEFT model adaptation
+peft_model = get_peft_model(model, peft_config)
+
+# Print trainable parameters
+peft_model.print_trainable_parameters()
+
+
+# Configure training arguments using SFTConfig
+training_args = SFTConfig(
+    output_dir="smolvlm-instruct-thinking",
+    num_train_epochs=1,
+    per_device_train_batch_size=4,
+    gradient_accumulation_steps=4,
+    warmup_steps=50,
+    learning_rate=1e-4,
+    weight_decay=0.01,
+    logging_steps=25,
+    save_strategy="steps",
+    save_steps=25,
+    save_total_limit=1,
+    optim="adamw_torch_fused",
+    bf16=True,
+    push_to_hub=True,
+    report_to="tensorboard",
+    remove_unused_columns=False,
+    gradient_checkpointing=True,
+    dataset_text_field="",
+    dataset_kwargs={"skip_prepare_dataset": True},
+)
