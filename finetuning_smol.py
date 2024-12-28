@@ -145,7 +145,7 @@ def collate_fn(examples):
 
     image_inputs = []
     for example in examples:
-      image = example[1]['content'][0]['image']
+      image = Image.open(example[1]['content'][0]['image'])
       if image.mode != 'RGB':
           image = image.convert('RGB')
       image_inputs.append([image])
