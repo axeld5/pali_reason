@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 from datasets import Dataset
 from PIL import Image
 from peft import LoraConfig, get_peft_model
-from trl import SFTConfig
+from trl import SFTConfig, SFTTrainer
 
 load_dotenv()
 model_id = "HuggingFaceTB/SmolVLM-Instruct"
@@ -136,3 +136,39 @@ training_args = SFTConfig(
     dataset_text_field="",
     dataset_kwargs={"skip_prepare_dataset": True},
 )
+
+image_token_id = processor.tokenizer.additional_special_tokens_ids[
+            processor.tokenizer.additional_special_tokens.index("<image>")]
+
+def collate_fn(examples):
+    texts = [processor.apply_chat_template(example, tokenize=False) for example in examples]
+
+    image_inputs = []
+    for example in examples:
+      image = example[1]['content'][0]['image']
+      if image.mode != 'RGB':
+          image = image.convert('RGB')
+      image_inputs.append([image])
+
+    batch = processor(text=texts, images=image_inputs, return_tensors="pt", padding=True)
+    labels = batch["input_ids"].clone()
+    labels[labels == processor.tokenizer.pad_token_id] = -100  # Mask padding tokens in labels
+    labels[labels == image_token_id] = -100  # Mask image token IDs in labels
+
+    batch["labels"] = labels
+
+    return batch
+
+
+trainer = SFTTrainer(
+    model=model,
+    args=training_args,
+    train_dataset=train_dataset,
+    data_collator=collate_fn,
+    peft_config=peft_config,
+    tokenizer=processor.tokenizer,
+)
+
+trainer.train()
+trainer.save_model(training_args.output_dir)
+trainer.push_to_hub()
