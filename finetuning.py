@@ -66,7 +66,7 @@ args = TrainingArguments(
     dataloader_pin_memory=False
 )
 
-train_ds = Dataset.from_dict(json.load(open("training_data/training_dict.json")))
+train_ds = Dataset.from_dict(json.load(open("training_data/truncated_training_dict_v2.json")))
 
 trainer = Trainer(
     model=model,
