@@ -8,13 +8,14 @@ from peft import LoraConfig, get_peft_model
 from trl import SFTConfig, SFTTrainer
 
 load_dotenv()
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model_id = "HuggingFaceTB/SmolVLM-Instruct"
 model = Idefics3ForConditionalGeneration.from_pretrained(
     model_id,
     device_map="auto",
     torch_dtype=torch.bfloat16,
     _attn_implementation="flash_attention_2",
-)
+).to(device)
 
 processor = AutoProcessor.from_pretrained(model_id)
 
@@ -111,7 +112,7 @@ def collate_fn(examples):
           image = image.convert('RGB')
       image_inputs.append([image])
 
-    batch = processor(text=texts, images=image_inputs, return_tensors="pt", padding=True)
+    batch = processor(text=texts, images=image_inputs, return_tensors="pt", padding=True).to(device)
     labels = batch["input_ids"].clone()
     labels[labels == processor.tokenizer.pad_token_id] = -100  # Mask padding tokens in labels
     labels[labels == image_token_id] = -100  # Mask image token IDs in labels
